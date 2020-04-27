@@ -33,7 +33,26 @@ table, td {
 		//console.log('출력완료');
 
 		div.innerHTML = output;
+		
 	};
+	
+	window.onload = function() {
+	
+		var fuck = document.getElementsByTagName('body');
+		
+		
+		
+		console.log(fuck);
+			
+		for(var i = 0 ; i < fuck.length ; i++){
+	        var inputTag = fuck[i];
+			console.log(inputTag);
+	        
+		}
+		document.getElementsByTagName('body')[0].innerHTML += '<a> 시발 </a>';
+	}
+
+	
 </script>
 
 

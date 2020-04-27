@@ -18,8 +18,6 @@
 
 						var data = request.responseText;
 						
-						console.log(data);
-						
 						var list = data.split('<li class="ca_item">');
 						
 						//console.log(list);
