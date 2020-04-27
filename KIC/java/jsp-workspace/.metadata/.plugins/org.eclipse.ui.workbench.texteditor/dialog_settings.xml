@@ -9,12 +9,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="chart_candlesticks" key="selection"/>
+		<item value="setterCrawlingLastPrice" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="setterCrawlingLastPrice"/>
 			<item value="chartCandlestick"/>
 			<item value="없는"/>
 			<item value="lastPrices"/>
@@ -29,7 +30,6 @@
 			<item value="serise"/>
 			<item value="seriese"/>
 			<item value="histo"/>
-			<item value="getCandlestickList"/>
 		</list>
 		<list key="replacehistory">
 			<item value="chart_candlesticks"/>

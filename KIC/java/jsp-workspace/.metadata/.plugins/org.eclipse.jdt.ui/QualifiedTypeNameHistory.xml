@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="servlet.SeleniumTest"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
@@ -10,7 +7,6 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.TimeoutException"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
 <fullyQualifiedTypeName name="java.net.InetAddress"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -52,7 +48,6 @@
 <fullyQualifiedTypeName name="Crawler.ChartDataCollector"/>
 <fullyQualifiedTypeName name="modelPaging.ChartListInfoTOTemp"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="net.bytebuddy.asm.Advice.This"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="org.jsoup.Connection.Method"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="Crawler.testerMain.TestCrawling"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="jdk.internal.dynalink.beans.StaticClass"/>
+<fullyQualifiedTypeName name="org.jsoup.helper.HttpConnection.Response"/>
+<fullyQualifiedTypeName name="org.jsoup.Connection.Response"/>
 </qualifiedTypeNameHistroy>

@@ -5,3 +5,5 @@
 1587888758772	Copy file
 1587889993530	Rename local variable 'jsonStr'
 1587911193284	Extract local variable 'target'
+1587969804105	Extract method 'driverInit'
+1587970841194	Delete element
