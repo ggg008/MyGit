@@ -9,29 +9,32 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="setterCrawlingLastPrice" key="selection"/>
+		<item value="fromSymbol" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="fromSymbol"/>
+			<item value="draw3"/>
+			<item value="paramFromSymbol"/>
+			<item value="col-lg-11"/>
+			<item value="card-body"/>
+			<item value="chartList.do"/>
+			<item value="restAPIs"/>
+			<item value="현재"/>
+			<item value="scroll-sidebar"/>
+			<item value="systemOs"/>
+			<item value="System.getProperty(&quot;os.name&quot;)"/>
 			<item value="setterCrawlingLastPrice"/>
 			<item value="chartCandlestick"/>
 			<item value="없는"/>
 			<item value="lastPrices"/>
-			<item value="fsymPrice"/>
-			<item value="selectorGecko"/>
-			<item value="price is"/>
-			<item value="price"/>
-			<item value="change"/>
-			<item value="7,561.47"/>
-			<item value="standardTimes"/>
-			<item value="chart.series[0]"/>
-			<item value="serise"/>
-			<item value="seriese"/>
-			<item value="histo"/>
 		</list>
 		<list key="replacehistory">
+			<item value="chartView.do"/>
+			<item value="masDAO.getChartList()"/>
+			<item value="systemOs"/>
 			<item value="chart_candlesticks"/>
 			<item value="\"/>
 			<item value="/&quot;"/>
@@ -44,14 +47,13 @@
 			<item value="&lt;/"/>
 			<item value="\&quot;"/>
 			<item value=""/>
-			<item value="transferObjs"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="288" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="384" key="DIALOG_HEIGHT"/>
-		<item value="1133" key="DIALOG_X_ORIGIN"/>
-		<item value="446" key="DIALOG_Y_ORIGIN"/>
+		<item value="1136" key="DIALOG_X_ORIGIN"/>
+		<item value="492" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

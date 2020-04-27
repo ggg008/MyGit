@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
@@ -26,8 +25,6 @@
 <fullyQualifiedTypeName name="RunnableCrawling"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="modelPaging.MasDAO"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="modelPaging.CandlestickTO"/>
 <fullyQualifiedTypeName name="subController.MasAction"/>
 <fullyQualifiedTypeName name="subController.ChartAction"/>
 <fullyQualifiedTypeName name="Crawler.testerMain.RunnableCrawling"/>
@@ -46,7 +43,6 @@
 <fullyQualifiedTypeName name="Crawler.ChartDataCollector.RunnableCrawlingSelenium"/>
 <fullyQualifiedTypeName name="Crawler.testerMain"/>
 <fullyQualifiedTypeName name="Crawler.ChartDataCollector"/>
-<fullyQualifiedTypeName name="modelPaging.ChartListInfoTOTemp"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -56,8 +52,12 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="Crawler.testerMain.TestCrawling"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="jdk.internal.dynalink.beans.StaticClass"/>
 <fullyQualifiedTypeName name="org.jsoup.helper.HttpConnection.Response"/>
 <fullyQualifiedTypeName name="org.jsoup.Connection.Response"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="modelPaging.CandlestickTO"/>
+<fullyQualifiedTypeName name="modelPaging.ChartListInfoTOTemp"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

@@ -12566,3 +12566,31 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.eclipse.jface.text 2 0 2020-04-27 20:25:01.252
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-04-27 20:28:02.303
+!MESSAGE An internal error occurred during: "Synchronizing script resources with Tern server...".
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.internal.core.Trace.trace(Trace.java:89)
+	at tern.eclipse.ide.internal.core.resources.IDETernProject.handleException(IDETernProject.java:373)
+	at tern.eclipse.ide.internal.core.resources.IDETernFileUploader$1.onError(IDETernFileUploader.java:133)
+	at tern.server.nodejs.NodejsTernServer.request(NodejsTernServer.java:207)
+	at tern.eclipse.ide.internal.core.resources.IDETernFileUploader.run(IDETernFileUploader.java:124)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface.text 4 0 2020-04-27 20:28:02.520
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.internal.ui.Trace.trace(Trace.java:89)
+	at tern.eclipse.ide.ui.hover.TernHover.getHoverInfo2(TernHover.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:81)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-04-27 20:28:02.622
+!MESSAGE An internal error occurred during: "Searching definition...".
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.internal.core.resources.IDETernServerAsyncReqProcessor.run(IDETernServerAsyncReqProcessor.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
