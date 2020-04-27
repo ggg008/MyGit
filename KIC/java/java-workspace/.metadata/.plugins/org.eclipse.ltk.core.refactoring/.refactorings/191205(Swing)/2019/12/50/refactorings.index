@@ -1,0 +1,35 @@
+1575851857582	Copy compilation unit
+1575851868414	Rename type 'ZipSearchEx2'
+1575855226577	Copy compilation unit
+1575858088840	Copy compilation unit
+1575858568405	Rename type 'JComboBoxEx01'
+1575858578240	Rename type 'JComboBoxEx02'
+1575858832187	Copy compilation unit
+1575859486654	Copy compilation unit
+1575861351930	Rename method 'searchZipArray'
+1575869274500	Rename field 'values'
+1575877423444	Extract method 'changeValue'
+1575878476337	Rename field 'iBtnPress'
+1575880678171	Rename local variable 'cahngedModel'
+1575880860030	Rename field 'iPressBtn'
+1575880913153	Rename field 'bPressBtnChange'
+1575883108254	Rename field 'compareStatValue'
+1575937485309	Rename type 'EmpEx01'
+1575937496543	Rename type 'EmpUIEx01'
+1575937543938	Delete element
+1575939800081	Delete element
+1575957404101	Delete element
+1575957427204	Delete element
+1575958248797	Rename type 'JDialogEx01'
+1575958376251	Delete element
+1576109776030	Rename package 'Swing_191205'
+1576109781824	Rename package 'Swing_191206'
+1576109788532	Rename package 'Swing_191209'
+1576109795351	Rename package 'Swing_191210'
+1576109801675	Rename package 'Swing_191211'
+1576202006005	Copy compilation units
+1576219145574	Rename package 'swing_191205'
+1576219157185	Rename package 'swing_191206'
+1576219164880	Rename package 'swing_191209'
+1576219172324	Rename package 'swing_191210'
+1576219183126	Rename package 'swing_191211'

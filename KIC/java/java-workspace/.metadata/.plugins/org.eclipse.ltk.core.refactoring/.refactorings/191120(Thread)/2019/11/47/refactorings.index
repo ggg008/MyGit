@@ -1,0 +1,19 @@
+1574208988291	Rename package 'Pack4'
+1574209014544	Rename type 'UnPgStatePrintThread'
+1574209534341	Rename field 'targeThread'
+1574209539651	Rename local variable 'targeThread'
+1574214231290	Move compilation unit
+1574217057547	Rename package 'day21Class.Semapore'
+1574217095626	Rename field 'Account'
+1574217616442	Rename package 'day21Class.Semaphore'
+1574217653161	Rename type 'ThreadEx01'
+1574217667163	Move compilation unit
+1574217703137	Rename type 'Thread_AnonymousClass'
+1574217721579	Delete element
+1574217751190	Rename type 'ThreadEx01'
+1574217768783	Rename type 'Thread_enumState'
+1574217770974	Move compilation unit
+1574217794975	Rename package 'day21Class.pack4'
+1574217811665	Rename type 'P551Thread_enumState'
+1574218165150	Rename type 'P566ATMEx01'
+1574218180601	Rename type 'P566ATMEx01_SR'

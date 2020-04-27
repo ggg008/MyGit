@@ -1,0 +1,116 @@
+28-Jan-2020 10:08:56.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.30
+28-Jan-2020 10:08:56.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Dec 7 2019 16:42:04 UTC
+28-Jan-2020 10:08:56.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.30.0
+28-Jan-2020 10:08:56.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 7
+28-Jan-2020 10:08:56.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            6.1
+28-Jan-2020 10:08:56.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+28-Jan-2020 10:08:56.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             C:\Program Files\Java\jdk-13.0.1
+28-Jan-2020 10:08:56.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           13.0.1+9
+28-Jan-2020 10:08:56.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+28-Jan-2020 10:08:56.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:08:56.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:08:56.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2020 10:08:56.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jan-2020 10:08:56.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2020 10:08:56.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\conf\logging.properties
+28-Jan-2020 10:08:56.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2020 10:08:56.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2020 10:08:56.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2020 10:08:56.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+28-Jan-2020 10:08:56.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:08:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:08:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\temp
+28-Jan-2020 10:08:56.110 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.23]을(를) 로드했습니다.
+28-Jan-2020 10:08:56.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2020 10:08:56.113 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+28-Jan-2020 10:08:56.120 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1c  28 May 2019]
+28-Jan-2020 10:08:56.352 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+28-Jan-2020 10:08:56.438 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 초기화합니다.
+28-Jan-2020 10:08:56.444 INFO [main] org.apache.catalina.startup.Catalina.load [637] 밀리초 내에 서버가 초기화되었습니다.
+28-Jan-2020 10:08:56.487 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+28-Jan-2020 10:08:56.488 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.30]
+28-Jan-2020 10:08:56.541 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200108_Model1.war]을(를) 배치합니다.
+28-Jan-2020 10:08:56.968 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:08:57.030 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200108_Model1.war]의 배치가 [489] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.039 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200115_Servlet.war]을(를) 배치합니다.
+28-Jan-2020 10:08:57.101 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200115_Servlet.war]의 배치가 [62] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.127 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200121_Board_PagingModel2.war]을(를) 배치합니다.
+28-Jan-2020 10:08:57.337 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:08:57.341 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200121_Board_PagingModel2.war]의 배치가 [214] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\docs]을(를) 배치합니다.
+28-Jan-2020 10:08:57.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\docs]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\examples]을(를) 배치합니다.
+28-Jan-2020 10:08:57.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\examples]에 대한 배치가 [465] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\host-manager]을(를) 배치합니다.
+28-Jan-2020 10:08:57.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\host-manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\manager]을(를) 배치합니다.
+28-Jan-2020 10:08:57.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\manager]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\ROOT]을(를) 배치합니다.
+28-Jan-2020 10:08:57.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\ROOT]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:57.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website1]을(를) 배치합니다.
+28-Jan-2020 10:08:58.089 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:08:58.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website1]에 대한 배치가 [154] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:58.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website2]을(를) 배치합니다.
+28-Jan-2020 10:08:58.245 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:08:58.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website2]에 대한 배치가 [154] 밀리초에 완료되었습니다.
+28-Jan-2020 10:08:58.254 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+28-Jan-2020 10:08:58.263 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 시작합니다.
+28-Jan-2020 10:08:58.267 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1,821] 밀리초 내에 시작되었습니다.
+28-Jan-2020 10:21:33.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.30
+28-Jan-2020 10:21:33.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Dec 7 2019 16:42:04 UTC
+28-Jan-2020 10:21:33.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.30.0
+28-Jan-2020 10:21:33.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 7
+28-Jan-2020 10:21:33.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            6.1
+28-Jan-2020 10:21:33.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+28-Jan-2020 10:21:33.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             C:\Program Files\Java\jdk-13.0.1
+28-Jan-2020 10:21:33.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           13.0.1+9
+28-Jan-2020 10:21:33.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+28-Jan-2020 10:21:33.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:21:33.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:21:33.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2020 10:21:33.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jan-2020 10:21:33.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2020 10:21:33.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\conf\logging.properties
+28-Jan-2020 10:21:33.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2020 10:21:33.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2020 10:21:33.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2020 10:21:33.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+28-Jan-2020 10:21:33.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:21:33.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30
+28-Jan-2020 10:21:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\temp
+28-Jan-2020 10:21:33.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.23]을(를) 로드했습니다.
+28-Jan-2020 10:21:33.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2020 10:21:33.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+28-Jan-2020 10:21:33.940 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1c  28 May 2019]
+28-Jan-2020 10:21:34.178 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+28-Jan-2020 10:21:34.266 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 초기화합니다.
+28-Jan-2020 10:21:34.271 INFO [main] org.apache.catalina.startup.Catalina.load [581] 밀리초 내에 서버가 초기화되었습니다.
+28-Jan-2020 10:21:34.307 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+28-Jan-2020 10:21:34.307 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.30]
+28-Jan-2020 10:21:34.325 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200108_Model1.war]을(를) 배치합니다.
+28-Jan-2020 10:21:34.646 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:21:34.708 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200108_Model1.war]의 배치가 [383] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:34.710 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200115_Servlet.war]을(를) 배치합니다.
+28-Jan-2020 10:21:34.762 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200115_Servlet.war]의 배치가 [52] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:34.765 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200121_Board_PagingModel2.war]을(를) 배치합니다.
+28-Jan-2020 10:21:34.861 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:21:34.865 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\200121_Board_PagingModel2.war]의 배치가 [100] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:34.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\docs]을(를) 배치합니다.
+28-Jan-2020 10:21:34.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\docs]에 대한 배치가 [26] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:34.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\examples]을(를) 배치합니다.
+28-Jan-2020 10:21:35.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\examples]에 대한 배치가 [316] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:35.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\host-manager]을(를) 배치합니다.
+28-Jan-2020 10:21:35.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\host-manager]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:35.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\manager]을(를) 배치합니다.
+28-Jan-2020 10:21:35.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:35.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\ROOT]을(를) 배치합니다.
+28-Jan-2020 10:21:35.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\ROOT]에 대한 배치가 [30] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:35.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website1]을(를) 배치합니다.
+28-Jan-2020 10:21:35.403 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:21:35.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website1]에 대한 배치가 [91] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:35.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website2]을(를) 배치합니다.
+28-Jan-2020 10:21:35.496 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+28-Jan-2020 10:21:35.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\webapps\website2]에 대한 배치가 [91] 밀리초에 완료되었습니다.
+28-Jan-2020 10:21:35.506 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+28-Jan-2020 10:21:35.520 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 시작합니다.
+28-Jan-2020 10:21:35.524 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1,251] 밀리초 내에 시작되었습니다.

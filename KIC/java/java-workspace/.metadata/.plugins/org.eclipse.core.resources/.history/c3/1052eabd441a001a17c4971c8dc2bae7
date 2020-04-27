@@ -1,0 +1,22 @@
+package Swing_191209;
+
+import javax.swing.AbstractListModel;
+
+public class CustomListModel extends AbstractListModel<String>
+{
+
+	@Override
+	public int getSize()
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getElementAt(int index)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

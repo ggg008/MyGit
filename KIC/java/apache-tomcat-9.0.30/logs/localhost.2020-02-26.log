@@ -1,0 +1,15 @@
+26-Feb-2020 15:50:45.082 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Feb-2020 15:50:46.106 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Feb-2020 15:50:49.700 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-Feb-2020 15:51:07.445 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Feb-2020 15:51:07.664 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Feb-2020 15:51:08.206 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-Feb-2020 15:51:10.082 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Feb-2020 15:51:10.192 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Feb-2020 15:51:11.450 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+26-Feb-2020 15:51:13.750 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Feb-2020 15:51:13.860 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Feb-2020 15:51:14.296 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+26-Feb-2020 15:51:17.637 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Feb-2020 15:51:17.637 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Feb-2020 15:51:17.638 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@527c4caa')

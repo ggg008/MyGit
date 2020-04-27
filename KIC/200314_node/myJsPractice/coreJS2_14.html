@@ -1,0 +1,12 @@
+<script>
+    var a = 1;
+    var outer = function () {
+        var b = 2;        
+        var inner = function () {
+            console.dir(inner);
+        };
+        inner();
+    };
+    outer();
+    //크롬 실행 ctrl + shift + b
+</script>

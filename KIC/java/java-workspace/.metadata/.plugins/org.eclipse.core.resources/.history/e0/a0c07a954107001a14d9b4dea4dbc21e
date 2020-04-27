@@ -1,0 +1,15 @@
+import java.io.FileInputStream;
+
+
+public class P602FileInputStreamEx01
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		FileInputStream fis = null; 
+				fis = new FileInputStream("C:\\Users\\kitcoop\\OneDrive\\java\\test1.txt");
+	}
+
+}

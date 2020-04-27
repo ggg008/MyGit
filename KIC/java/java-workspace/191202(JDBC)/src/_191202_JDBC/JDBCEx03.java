@@ -1,0 +1,66 @@
+package _191202_JDBC;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JDBCEx03
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		// 1. 드라이버 로딩
+		// 2. 데이터베이스와 연결
+		// 1. 연결 url
+		// 2. id / password
+		// java.sql.*
+
+		String url = "jdbc:mysql://localhost:3306/employees";//외워
+//		String url = "jdbc:mysql://192.168.0.21:3306/employees";// 외워 jdbc:mysql://서버아이피:서버포트/접속디비명
+		String userID = "root";
+		String password = "123456";
+
+		Connection conn = null;
+		Statement stmt = null;
+		
+		
+		try {
+//			Class.forName("org.mariadb.jdbc.Driver");// 외워//더이상 필수는 아니야...
+			System.out.println("드라이버 로딩 성공");
+			conn = DriverManager.getConnection(url, userID, password);
+			System.out.println("연결 성공");
+			
+			
+			stmt = conn.createStatement();//던진다
+			
+			String deptno = "61";
+			String dname = "연구부";
+			String loc = "대전";
+			
+//			String sql = "INSERT INTO "+ table +" VALUE(" + deptno +", '"+ dname +"', '"+ loc +"' )";
+//			String sql = String.format("INSERT INTO dept VALUE(%s, '%s', '%s')", deptno, dname, loc);
+			String sql = String.format("DELETE FROM dept WHERE (deptno = %s)", deptno, dname, loc);
+			
+			
+			int result = stmt.executeUpdate(sql); //쿼리문에 ;이 안붙음을 유의
+			System.out.println("입력 성공 : " + result);
+			
+			
+//		} catch (ClassNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			System.out.println("[ClassNotFoundException 에러] " + e.getMessage());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("[SQLException 에러] " + e.getMessage());
+		} finally {
+			if(conn != null) try { conn.close(); } catch (Exception e2) {}
+			if(stmt != null) try { stmt.close(); } catch (Exception e2) {}
+		}
+
+	
+
+	}
+
+}

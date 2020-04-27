@@ -1,0 +1,32 @@
+1581470012447	Delete element
+1581470044851	Copy package
+1581470066033	Delete element
+1581472181614	Delete element
+1581474397084	Copy folder
+1581475620980	Copy compilation unit
+1581476014788	Copy compilation unit
+1581491045826	Rename type 'HomeController3'
+1581491111677	Copy compilation unit
+1581496599922	Rename field 'id'
+1581496604627	Rename field 'fixId'
+1581496612402	Rename field 'password'
+1581496616634	Rename field 'fixedPw'
+1581496622563	Rename field 'fixedId'
+1581497176150	Rename local variable 'isLogin'
+1581559347030	Rename local variable 'curPage'
+1581561370927	Delete element
+1581578519795	Rename local variable 'doPages'
+1581644059130	Rename field 'fixedMail1'
+1581644734001	Rename local variable 'flag'
+1581651106328	Rename resource 'message.jsp'
+1581651113344	Rename resource 'member_search_ok.jsp'
+1581651170952	Delete element
+1581651887800	Copy file
+1581651896177	Delete element
+1581651903118	Rename resource 'pom2.xml'
+1581658631551	Copy file
+1581661345827	Copy files
+1581664294017	Delete elements
+1581664431676	Copy file
+1581666934082	Copy file
+1581667233664	Encapsulate field 'name'

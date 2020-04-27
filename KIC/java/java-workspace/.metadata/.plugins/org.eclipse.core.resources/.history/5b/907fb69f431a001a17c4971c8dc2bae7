@@ -1,0 +1,61 @@
+package Swing_191209;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JList;
+import javax.swing.AbstractListModel;
+
+public class JListEx01 extends JFrame
+{
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args)
+	{
+		EventQueue.invokeLater(new Runnable() {
+			public void run()
+			{
+				try {
+					JListEx01 frame = new JListEx01();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public JListEx01()
+	{
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 640, 480);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JList list = new JList();
+		list.setModel(new AbstractListModel() {
+			String[] values = new String[] {"사과", "딸기", "수박", "키위", "딸기", "수박", "키위", "딸기", "수박", "키위"};
+			public int getSize() {
+				return values.length;
+			}
+			public Object getElementAt(int index) {
+				return values[index];
+			}
+		});
+		list.setBounds(12, 10, 560, 274);
+		contentPane.add(list);
+	}
+}

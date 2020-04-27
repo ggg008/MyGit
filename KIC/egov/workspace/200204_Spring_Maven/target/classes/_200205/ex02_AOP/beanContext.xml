@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+	<!--  aop 추가된 bean context -->
+	
+	<bean id="action" class="_200205.ex02_AOP.action.WriteAction">
+		<property name="writer">
+			<value>홍길동</value>
+		</property>
+	</bean>
+	
+	<bean id="logginAdvice" class="_200205.ex02_AOP.aop.LogginAdvice"/>
+	<bean id="logginAdvice2" class="_200205.ex02_AOP.aop.LogginAdvice2"/>
+	
+	
+	<!-- AOP 설정 -->
+	<aop:config>
+		
+		<!-- 한개이상 사용 가능 -->
+		<!--  
+		<aop:aspect ref="logginAdvice2" order="2">
+			<aop:around method="logAround" pointcut="execution(* execute1())"/>			
+		</aop:aspect>
+		-->
+				
+		<aop:aspect ref="logginAdvice" order="1">
+			<!--  
+			<aop:pointcut expression="execution(* execute())" id="logPointCut"/>
+			<aop:around method="logAround" pointcut-ref="logPointCut"/>
+			-->
+			<!-- 축약 -->
+			<!-- 
+			 -->
+			<aop:around method="logAround" pointcut="execution(* execute1())" />
+			 
+			<!-- 위빙 -->
+			<!--
+			<aop:after method="after" pointcut="execution(* execute1())" />
+			<aop:around
+			<aop:before method="before" pointcut="execution(* execute1())" />
+			<aop:after method="after" pointcut="execution(* execute1())" />
+			-->
+			
+		</aop:aspect>
+		
+	</aop:config>
+	
+</beans>

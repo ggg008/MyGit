@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.exam.subController.HomeController&apos; to &apos;ZipController&apos;&#x0D;&#x0A;- Original project: &apos;200210_SMVC_ZipSearch&apos;&#x0D;&#x0A;- Original element: &apos;com.exam.subController.HomeController&apos;&#x0D;&#x0A;- Renamed element: &apos;com.exam.subController.ZipController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HomeController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.exam.subController{HomeController.java[HomeController" matchStrategy="1" name="ZipController" qualified="false" references="true" similarDeclarations="false" stamp="1581382786402" textual="false" version="1.0"/>
+</session>

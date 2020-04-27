@@ -1,0 +1,32 @@
+package Swing_191209;
+
+import java.util.ArrayList;
+
+import javax.swing.DefaultComboBoxModel;
+
+public class ZipSearchComboBoxModel extends DefaultComboBoxModel<String>
+{
+	private ArrayList<String> datas;
+	
+	public ZipSearchComboBoxModel(String strDong)
+	{
+		ZipSearchDAO dao = new ZipSearchDAO();
+		datas = dao.searchZips(strDong)
+	}
+
+	@Override
+	public int getSize()
+	{
+		// TODO Auto-generated method stub
+		return datas.size();
+	}
+
+	@Override
+	public String getElementAt(int index)
+	{
+		// TODO Auto-generated method stub
+		return datas.get(index);
+	}
+	
+	
+}

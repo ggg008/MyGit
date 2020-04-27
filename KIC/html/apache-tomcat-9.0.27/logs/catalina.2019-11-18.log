@@ -1,0 +1,46 @@
+18-Nov-2019 17:16:33.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.27
+18-Nov-2019 17:16:33.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Oct 7 2019 09:57:22 UTC
+18-Nov-2019 17:16:33.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.27.0
+18-Nov-2019 17:16:33.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 7
+18-Nov-2019 17:16:33.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            6.1
+18-Nov-2019 17:16:33.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Nov-2019 17:16:33.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             C:\Program Files\Java\jdk-13.0.1
+18-Nov-2019 17:16:33.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           13.0.1+9
+18-Nov-2019 17:16:33.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+18-Nov-2019 17:16:33.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27
+18-Nov-2019 17:16:33.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27
+18-Nov-2019 17:16:33.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2019 17:16:33.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2019 17:16:33.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2019 17:16:33.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\conf\logging.properties
+18-Nov-2019 17:16:33.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2019 17:16:33.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+18-Nov-2019 17:16:33.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Nov-2019 17:16:33.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+18-Nov-2019 17:16:33.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27
+18-Nov-2019 17:16:33.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27
+18-Nov-2019 17:16:33.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\temp
+18-Nov-2019 17:16:33.788 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.23]을(를) 로드했습니다.
+18-Nov-2019 17:16:33.789 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18-Nov-2019 17:16:33.790 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Nov-2019 17:16:33.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1c  28 May 2019]
+18-Nov-2019 17:16:34.037 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Nov-2019 17:16:34.118 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 초기화합니다.
+18-Nov-2019 17:16:34.123 INFO [main] org.apache.catalina.startup.Catalina.load [561] 밀리초 내에 서버가 초기화되었습니다.
+18-Nov-2019 17:16:34.158 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Nov-2019 17:16:34.159 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.27]
+18-Nov-2019 17:16:34.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\docs]을(를) 배치합니다.
+18-Nov-2019 17:16:34.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\docs]에 대한 배치가 [247] 밀리초에 완료되었습니다.
+18-Nov-2019 17:16:34.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\examples]을(를) 배치합니다.
+18-Nov-2019 17:16:34.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\examples]에 대한 배치가 [327] 밀리초에 완료되었습니다.
+18-Nov-2019 17:16:34.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\host-manager]을(를) 배치합니다.
+18-Nov-2019 17:16:34.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\host-manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+18-Nov-2019 17:16:34.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\manager]을(를) 배치합니다.
+18-Nov-2019 17:16:34.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\manager]에 대한 배치가 [27] 밀리초에 완료되었습니다.
+18-Nov-2019 17:16:34.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\ROOT]을(를) 배치합니다.
+18-Nov-2019 17:16:34.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\ROOT]에 대한 배치가 [20] 밀리초에 완료되었습니다.
+18-Nov-2019 17:16:34.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\t1]을(를) 배치합니다.
+18-Nov-2019 17:16:34.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\acorn\OneDrive\html\apache-tomcat-9.0.27\webapps\t1]에 대한 배치가 [29] 밀리초에 완료되었습니다.
+18-Nov-2019 17:16:34.860 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Nov-2019 17:16:34.868 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 시작합니다.
+18-Nov-2019 17:16:34.872 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [748] 밀리초 내에 시작되었습니다.

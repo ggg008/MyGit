@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gugudna ok</title>
+        <meta charset="utf-8"/>     
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    </head>    
+    <body>
+        <% 
+        let gugudanStr = "<table width='800' border='1'>";
+        for(let i=0; i <= endDan; i++) { 
+            gugudanStr += '<tr>';
+            for(let j=0; j <= 9; j++) {
+                if (i == 0 && j == 0) {
+                    gugudanStr += "<td></td>";
+                } else if (i == 0) {
+                    gugudanStr += "<td>X" + j + "</td>";
+                } else if (j == 0) {
+                    gugudanStr += "<td>" + i + "단</td>";
+                } else {
+                    gugudanStr += "<td>" + i + " x " + j + " = " + (i * j) + "</td>";
+                }
+            }
+            gugudanStr += "</tr>";
+            if (i == 0) {
+                i = startDan - 1;
+            } 
+        }
+        
+        %>
+        <%- gugudanStr %>
+
+    </body>
+</html>

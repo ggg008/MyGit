@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 31 16:49:07 KST 2020
+mariadb-java-client-2.5.4.jar>central=
+mariadb-java-client-2.5.4-sources.jar>central=
+mariadb-java-client-2.5.4.pom>central=

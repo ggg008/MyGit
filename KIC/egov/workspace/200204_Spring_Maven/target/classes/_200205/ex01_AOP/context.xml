@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<!-- ※ AOP 설정 -->
+	<bean id="loginAdvice1" class="_200205.ex01_AOP.aop.LogginAdvice1"></bean>
+	<bean id="loginAdvice2" class="_200205.ex01_AOP.aop.LogginAdvice2"></bean>
+	<bean id="pointcutAdvisor"
+		class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<!-- 공통관심사항 -->
+		<property name="advice" ref="loginAdvice1" />
+		<!-- 참조 방식이 아니라 직접 넣어도 됨 -->
+
+		<!-- pointcut p159 -->
+		<!-- 적용시킬 메서드 (이름) -->
+		<property name="pointcut">
+			<bean
+				class="org.springframework.aop.support.JdkRegexpMethodPointcut">
+				<property name="pattern" value=".*execute1.*" />
+			</bean>
+		</property>
+	</bean>
+
+
+	<!-- ※ 핵심 기능(핵심 로직) -->
+	<bean id="action" class="_200205.ex01_AOP.action.WriteAction">
+		<property name="writer">
+			<value>홍길동</value>
+		</property>
+	</bean>
+
+
+	<!-- ※ AOP 적용 -->
+	<bean id="proxy"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="action" /> <!-- 적용할 클래스 -->
+		<property name="interceptorNames">
+			<list>
+				<value>pointcutAdvisor</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

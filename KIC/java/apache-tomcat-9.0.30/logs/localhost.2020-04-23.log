@@ -1,0 +1,298 @@
+23-Apr-2020 09:05:13.077 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:05:13.538 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:05:14.744 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 09:05:17.349 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:05:17.539 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:05:17.977 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 09:05:19.523 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:05:19.602 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:05:20.803 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 09:05:26.170 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:05:26.979 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:05:29.985 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'action'
+23-Apr-2020 09:05:32.563 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:05:32.677 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:05:33.095 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 09:05:34.935 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Apr-2020 09:05:34.935 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Apr-2020 09:05:34.936 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@15ad83a5')
+23-Apr-2020 09:16:00.601 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 09:16:00.601 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 09:16:00.634 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 09:16:00.634 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 09:16:00.649 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 09:16:00.649 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 09:16:00.665 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 09:16:00.680 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 09:16:00.712 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Apr-2020 09:16:00.712 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Apr-2020 09:16:00.727 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'action'
+23-Apr-2020 09:16:00.743 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 09:16:06.496 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:16:06.621 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:16:07.198 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 09:16:08.338 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:16:08.432 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:16:08.868 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 09:16:09.665 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:16:09.727 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:16:10.425 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 09:16:12.325 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:16:12.808 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:16:14.874 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'action'
+23-Apr-2020 09:16:16.247 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 09:16:16.294 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 09:16:16.637 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 09:16:17.636 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Apr-2020 09:16:17.636 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Apr-2020 09:16:17.636 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4e8afad6')
+23-Apr-2020 09:18:30.047 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/MasChart]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\work\Catalina\localhost\MasChart\org\apache\jsp\dist\jsp\sess_002dgetter_jsp.java]의 [14] 행에서 오류가 발생했습니다.
+Only a type can be imported. org.json.simple.JSONObject resolves to a package
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\work\Catalina\localhost\MasChart\org\apache\jsp\dist\jsp\sess_002dgetter_jsp.java]의 [14] 행에서 오류가 발생했습니다.
+Only a type can be imported. org.json.simple.JSONObject resolves to a package
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:519)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Apr-2020 09:49:01.112 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/MasChart]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\work\Catalina\localhost\MasChart\org\apache\jsp\dist\jsp\sess_002dgetter_jsp.java]의 [14] 행에서 오류가 발생했습니다.
+Only a type can be imported. org.json.simple.JSONObject resolves to a package
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\MyCloud\OneDrive\java\apache-tomcat-9.0.30\work\Catalina\localhost\MasChart\org\apache\jsp\dist\jsp\sess_002dgetter_jsp.java]의 [14] 행에서 오류가 발생했습니다.
+Only a type can be imported. org.json.simple.JSONObject resolves to a package
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+JSP 파일 [/dist/jsp/sess-getter.jsp]의 [5] 행에서 오류가 발생했습니다.
+JSONObject cannot be resolved to a type
+2: <%@ page language="java" contentType="text/plain; charset=UTF-8"
+3: 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+4: <%    
+5:     JSONObject result = new JSONObject();
+6: 	result.put("sessID", session.getAttribute("sess_id"));	
+7: 	
+8: 	out.println(result);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:519)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Apr-2020 10:03:33.079 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 10:03:33.081 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 10:03:33.088 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 10:03:33.091 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 10:03:33.102 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 10:03:33.105 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 10:03:33.114 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 10:03:33.115 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 10:03:33.127 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Apr-2020 10:03:33.127 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Apr-2020 10:03:33.144 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'action'
+23-Apr-2020 10:03:33.146 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 15:48:32.599 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 15:48:32.722 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 15:48:33.306 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 15:48:34.485 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 15:48:34.580 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 15:48:35.020 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 15:48:36.148 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 15:48:36.271 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 15:48:37.316 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 15:48:42.072 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 15:48:42.816 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 15:48:45.684 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'action'
+23-Apr-2020 15:48:47.938 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 15:48:48.007 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 15:48:48.368 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 15:48:50.388 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Apr-2020 15:48:50.388 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Apr-2020 15:48:50.389 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5bbc483f')
+23-Apr-2020 15:49:26.637 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 15:49:26.638 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 15:49:26.654 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 15:49:26.657 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 15:49:26.668 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 15:49:26.671 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 15:49:26.681 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 15:49:26.682 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 15:49:26.696 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Apr-2020 15:49:26.696 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Apr-2020 15:49:26.713 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'action'
+23-Apr-2020 15:49:26.715 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 16:14:46.208 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 16:14:46.324 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 16:14:46.891 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 16:14:48.144 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 16:14:48.261 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 16:14:48.696 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Apr-2020 16:14:49.548 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 16:14:49.610 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 16:14:50.290 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 16:14:52.928 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 16:14:53.409 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 16:14:55.754 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'action'
+23-Apr-2020 16:14:57.626 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2020 16:14:57.677 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2020 16:14:57.993 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+23-Apr-2020 16:14:59.646 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Apr-2020 16:14:59.647 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Apr-2020 16:14:59.648 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@64770cec')
+23-Apr-2020 16:15:05.106 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 16:15:05.107 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 16:15:05.122 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 16:15:05.125 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 16:15:05.135 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+23-Apr-2020 16:15:05.138 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 16:15:05.147 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Apr-2020 16:15:05.148 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Apr-2020 16:15:05.161 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Apr-2020 16:15:05.161 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Apr-2020 16:15:05.178 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'action'
+23-Apr-2020 16:15:05.181 정보 [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

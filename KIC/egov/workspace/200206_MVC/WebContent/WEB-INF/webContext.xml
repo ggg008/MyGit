@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	<!-- 요청(Controller) - model - view -->
+	<!--
+	 	list1.do -> listview1.jsp
+	-->
+	<!--  
+	<bean name="/list1.do" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+		<property name="viewName" value="listview1"/>
+	</bean>
+	
+	<bean name="/list2.do" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+		<property name="viewName" value="listview2"/>
+	</bean>
+	
+	<bean name="/list3.do" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+		<property name="viewName" value="listview2"/>
+	</bean>
+	-->
+	<!-- 가상 경로 -->
+	<!--  
+	<bean name="/board/list1.do" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+		<property name="viewName" value="/WEB-INF/views/boardlistview1.jsp"/> 
+	</bean>
+	
+	<bean name="/board/list2.do" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+		<property name="viewName" value="/WEB-INF/views/boardlistview2.jsp"/> 
+	</bean>
+	-->
+	<bean name="/list1.do" class="subController.ListAction1"/>
+	<bean name="/list2.do" class="subController.ListAction2"/>
+	
+	<bean name="/write.do" class="subController.WrtieAction"/>
+	<bean name="/write_ok.do" class="subController.WrtieOkAction"/>
+	
+	<!-- 
+	 -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/"/>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+</beans>

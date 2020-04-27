@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FileRenamePolicy.java&apos; to &apos;200217_FileUpload/src/main/java/com.exam.upload&apos;&#x0D;&#x0A;- Original project: &apos;200212_MyAlbum&apos;&#x0D;&#x0A;- Destination element: &apos;200217_FileUpload/src/main/java/com.exam.upload&apos;&#x0D;&#x0A;- Original element: &apos;com.album.subController.FileRenamePolicy.java&apos;" description="Copy compilation unit" destination="=200217_FileUpload/src\/main\/java&lt;com.exam.upload" element1="/src\/main\/java&lt;com.album.subController{FileRenamePolicy.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1581906266371" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,54 @@
+package JDBC_191203;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JDBCEx04
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		//접속경로는 데이터베이스 종류마다 다르다		
+		String url = "jdbc:mysql://127.0.0.1:3306/employees";
+		String userID = "root";
+		String password = "123456";		
+
+		Connection conn = null;
+		Statement  stmt = null;	
+		
+		
+		try {
+			//드라이버명도 데이터베이스 종류마다 다르다		
+			Class.forName("org.mriadb.jdbc.Driver");
+			conn = DriverManager.getConnection(url, userID, password);
+			
+			stmt = conn.createStatement();
+			
+			String sql = String.format("INSERT INTO dept VALUES(%s, '%s', '%s')", "80", "기획부", "강릉");
+			
+			int result = stmt.executeUpdate(sql);
+			System.out.println("실행완료 : " + result);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			
+			if(conn != null) try {conn.close();} catch (Exception e2) {}
+			if(stmt != null) try {stmt.close();} catch (Exception e2) {}		
+			
+		}
+		
+		
+		
+		
+
+	}
+
+}

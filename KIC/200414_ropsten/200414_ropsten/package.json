@@ -1,0 +1,14 @@
+{
+  "name": "200414_ropsten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ropsten01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.2.6"
+  }
+}

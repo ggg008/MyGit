@@ -1,0 +1,7 @@
+노드
+	파일
+		File클래스로 만들수 있는것 탐색기
+스트림
+	전송단위 
+byte - ~InputStream / ~OutputStream
+char - ~Reader / ~Writer

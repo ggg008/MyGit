@@ -1,0 +1,124 @@
+package models;
+
+import java.util.ArrayList;
+
+import javax.swing.table.AbstractTableModel;
+
+
+public class StudentInfoModel extends AbstractTableModel
+{
+	private static StudentInfoModel sim = null;
+	
+	private ArrayList<StudentInfoTO> datas = null;
+	
+	private String[] names = {
+			"번호", "아이디", "이름", "주민등록번호", "전화번호", "집주소", "비고"
+	};
+	
+	boolean[] columnEditables = new boolean[] {
+			false, false, false, false, false, false, false, false
+	};
+
+	private StudentInfoModel()
+	{
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static StudentInfoModel getInstance()
+	{
+		if(sim == null)
+			sim = new StudentInfoModel();
+	
+		sim.resetModel();
+		return sim;
+	}
+	
+	public void resetModel()
+	{
+		StudentInfoDAO dao = new StudentInfoDAO(); 
+		datas = dao.selectStuInfos();
+	}
+	
+	public void setData(StudentInfoTO setTo)
+	{
+		for(StudentInfoTO to : datas) {
+			if(to.getJumin() == setTo.getJumin()) {
+				to = setTo;
+			}
+		}
+			
+	}
+	
+	public StudentInfoTO getRow(int idx)
+	{
+		return datas.get(idx);
+	}
+	
+	@Override
+	public int getRowCount()
+	{
+		// TODO Auto-generated method stub
+		return datas.size();
+	}
+
+	@Override
+	public int getColumnCount()
+	{
+		// TODO Auto-generated method stub
+		return names.length;
+	}
+
+	@Override
+	public Object getValueAt(int rowIndex, int columnIndex)
+	{
+		// TODO Auto-generated method stub
+		
+		String result = "";
+		
+		StudentInfoTO to = datas.get(rowIndex);
+		
+		switch (columnIndex) {
+		case 0:
+			result = String.valueOf(to.getStuNum());
+			break;
+		case 1:
+			result = to.getStuID();			
+			break;
+		case 2:
+			result = to.getName();	
+			break;
+		case 3:
+			result = to.getJumin();	
+			break;
+		case 4:
+			result = to.getPhoneNumber();	
+			break;
+		case 5:
+			result = to.getHomeAddress();
+			break;
+		case 6:
+			result = to.getPs();	
+			break;
+		case 7:
+			result = to.getJoinDate();	
+			break;
+
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + columnIndex);
+		}
+		
+		return result;
+	}
+
+
+	@Override
+	public String getColumnName(int column)
+	{
+		// TODO Auto-generated method stub
+		return names[column];
+	}
+	
+	public boolean isCellEditable(int row, int column) {
+		return columnEditables[column];
+	}
+}

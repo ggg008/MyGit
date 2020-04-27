@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<!-- 디폴트 생성자 호출 HelloSpring helloSpring1 = new HelloSpring(); -->
+	<!-- <bean id="helloSpring1" class="spring.HelloSpring" /> <bean id="helloSpring2" 
+		class="spring.HelloSpring2" /> -->
+	<!-- 생성자 오버로딩 -->
+
+	<bean id="helloSpring3" class="spring.HelloSpring3" />
+	<bean id="helloSpring4" class="spring.HelloSpring3">
+		<constructor-arg>
+			<value>홍길동</value>
+		</constructor-arg>
+	</bean>
+
+
+	<!-- <bean id="helloBean" class="spring.HelloBean"/> -->
+	<!-- <bean id="helloBean" class="spring.HelloBean"> <constructor-arg> <value>박문수</value> 
+		</constructor-arg> <constructor-arg> <value>홍길동</value> </constructor-arg> 
+		<constructor-arg value="밤문수"/> <constructor-arg value="홍가동"/> </bean> -->
+
+	<!-- 메모리 생성 시점 => 디폴트 값 : 싱글톤 -->
+	<bean id="helloBeanSingle" class="spring.HelloBean"	scope="singleton" />
+	<bean id="helloBeanProto" class="spring.HelloBean" scope="prototype" />
+	<bean id="helloBeanSingle2" class="spring.HelloBean" scope="singleton" />
+
+
+</beans>

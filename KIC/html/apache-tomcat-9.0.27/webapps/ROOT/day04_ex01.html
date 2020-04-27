@@ -1,0 +1,618 @@
+<!doctype html>
+<!-- 시작 -->
+<html>
+<!-- 선언부 -->
+<head>
+    <meta charset="utf-8">
+    <title>4일차 01</title>
+    
+    <link rel="stylesheet" type="text/css" href="./external.css"><!--화이트-->
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    -->
+
+
+    <style text="text/css">
+        /*구글폰트 임포트 = 우선순위 문제, 최상단에 위치해야함*/
+        @import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+        @import url(http://fonts.googleapis.com/earlyaccess/amstelvaralpha.css);
+        @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+        
+        #title01 {
+            font-weight: bold;
+            font-size: 32px;
+            text-shadow: 3px 2px 2px gray;
+            text-transform: uppercase;
+        }
+        /*div{background-color: yellow;}*/
+
+        /* 가독성 */
+        #i2{
+            text-indent: 50px;/*들여쓰기*/
+            letter-spacing: 5px;/*자간*/
+            line-height: 1.8;/*줄 간격*/
+            word-spacing: 10px;/*문장 간격*/
+        }/* = 문단 가공*/
+        
+
+        #a1 {
+            font-size: 32px;
+            color: magenta;
+            text-shadow: 3px 2px 2px gray;
+            text-transform: uppercase;
+        }
+
+
+        #f1 {font-family: 굴림체; font-size: 10px;} /*dafault : 16px*/
+        #f2 {font-family: 돋움체; font-size: 20px;} 
+        #f3 {font-family: 궁서체; font-size: 10em;} /*10em = 16px의 10배*/ 
+        #f4 {font-style: italic;}
+
+
+        @font-face {
+            font-family: myFont1;
+            src: url('./font/sansation_light.woff');
+        }
+        @font-face {
+            font-family: myFont2;
+            src: url('./font/gabia_bombaram.ttf');
+        }
+
+        #customFont1{font-family: myFont1;}
+        #customFont2{font-family: myFont2;}
+
+        #customGoogleFont1{font-family: 'Nanum Brush Script'; font-size: 20px;}     
+        #customGoogleFont2{font-family: 'Amstelvar Alpha'; font-size: 19px;}
+        #customGoogleFont3{font-family: 'Hanna'; font-size: 18px;}
+
+        #u1{list-style-type: square;}
+        #u2{list-style-image: url('./images/sqpurple.gif');}
+
+        #box1{
+            background-color: red;
+            /*박스를 이루는 5요소*/
+            width: 100px;
+            height: 100px;
+            border-width: 2px;
+            border-color: blue;
+            border-style: dotted;
+        }
+
+        #box2{
+            background-color: white;
+
+            /*
+            border-width: 2px;
+            border-top-color: blue;
+            border-right-color: gray;
+            border-bottom-color: red;
+            border-left-color: green;
+
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dotted;
+            border-left-style: solid;
+            */
+
+            border-bottom: 6px solid black;
+            background-color: lightgray;
+        }
+        
+        #box3, div.box4{
+            background-color: lightgray;
+
+            width: 200px;
+            height: 50px;
+
+            border: 2px solid black;
+            border-radius: 25px;
+
+            padding-top: 30px;
+            /*
+            margin-top: 30px;
+            margin-bottom: 30px;
+            */
+
+            margin: 10px 200px 0px 20px;
+        }
+
+        #box3:hover{
+            background-color: green;            
+        }
+
+        div.box4:hover{
+            background-color: gold;
+        }
+
+        
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even){background-color: #17ada1}
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /*태그의 속성도 변경가능하다*/
+        /*
+        div{display: inline;}
+        li{display: inline;}
+        */
+        span{display: block;}
+
+        
+        /*#paragr2 {display: none;}*//*css로 숨기기*/
+        #paragr2 {visibility: hidden;}/*css로 숨기기(공간은 유지)*/
+        
+        .nav {
+            background-color: yellow; 
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline-block;
+            font-size: 20px;
+
+            /* width / height / padding */
+            padding: 20px;
+        }
+
+        .nav p {            
+            background-color: red; 
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+
+        #overFlow1{
+            background-color: #00ffff;
+            width: 950px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+
+        img {float : right;}
+
+        #pId1{            
+            background-color: black;
+            color: white;
+            width: 750px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+
+        div.layerClass {
+            width: 200px;
+            height: 200px;
+            border: 1px solid orange;
+            position: relative;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        #dLayer1{top: 0px; left: 0px; background-color: black; z-index: 3;}
+        #dLayer2{top: 50px; left: 150px; background-color: green; z-index: 2;}
+        #dLayer3{top: 100px; left: 300px; background-color: blue; z-index: 1;}
+ 
+        #word1{
+            width: 400px;
+            height: 100px;
+            border: 3px solid black;
+            position: relative;
+            top: 5px;
+            left: 100px;
+        }
+
+        #dFixLayer1{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 3px solid #73AD21;
+            text-align: center;
+        }
+
+
+
+        div.dTrClass{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+        #dTr2{
+            /*
+            transform: translate(50px, 100px);
+            transform: rotate(45deg);
+            */
+            margin-left: 150px;
+            transform: scale(2, 0.5);
+        }
+
+
+        div.dTriClass{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 1px solid black;
+            transition: width 2s, height 2s;
+        }
+        #dTri2{margin-left: 100px;}
+        #dTri3{margin-left: 200px;}
+        div.dTriClass:hover{width: 300px; height: 300px;}
+
+        @keyframes example{
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; top:50px;}
+            75%  {background-color:green; left:0px; top:50px;}
+            100% {background-color:red; left:0px; top:0px;}
+        }
+
+        div.dAniClass{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+
+            animation-name: example;
+            animation-duration: 0.3s;   
+            animation-iteration-count: infinite;         
+            /*
+            */
+        }        
+
+
+        .myTT {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .myTT .myTTT {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: gold;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0px;
+
+            top: -5px;
+            left: 1px;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+        }
+
+        .myTT:hover .myTTT {
+            visibility: visible;
+        }
+
+
+        .headline{
+            width: 100%;
+            height: 50px;
+            background-color: gray;
+            text-align: center;
+            padding: 25px 50px 0px 50px;
+            margin: 10px;
+        }
+        .newspaper{
+            column-count: 3;
+            column-gap: 40px;
+            column-rule-style: dotted;
+            column-rule-color: brown;
+            column-rule-width: 1px;
+        }
+
+
+        .resize{
+            border: 2px solid black;
+            padding: 20px;
+            width: 300px;
+
+            resize: both;
+            overflow: auto;
+        }
+
+
+        #grad1 {
+            height: 55px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right, blue, rgb(15, 251, 255), blue, rgb(73, 249, 255), blue, rgb(73, 249, 255), blue); /* Standard syntax (must be last) */
+        }
+
+
+
+    </style>
+    
+</head>
+
+<!-- 내용부 -->
+<body><!--텍스트가공-->
+    <div id="title01">
+        4일차 01
+    </div>
+
+    <br><hr><br>
+
+    <div style="background-color: tomato;">Hello CSS</div>
+    
+    <br><hr><br>
+    
+    <div id="i1">
+        북한 김정은 위원장이 완공을 앞둔 온천시설을 시찰한 소식을 북한 매체들이 오늘 아침에는 전했는데요. 눈에 띄는 게 앞서 금강산 시찰 때와 발언이 정반대입니다. 보도국 연결해서 알아보도록 하겠습니다.
+    </div>
+    
+    <div id="i2">
+        북한 김정은 위원장이 완공을 앞둔 온천시설을 시찰한 소식을 북한 매체들이 오늘 아침에는 전했는데요. 눈에 띄는 게 앞서 금강산 시찰 때와 발언이 정반대입니다. 보도국 연결해서 알아보도록 하겠습니다.
+    </div>
+    
+    <br><hr><br>
+    
+    <div id="a1">
+        text shadow
+    </div>
+    
+    <br><hr><br>
+    
+</body>
+
+
+<body><!--폰트-->
+    
+    <div id="f1">한글 폰트</div>
+    <p id="f2">한글 폰트</p>
+    <span id="f3">한글 폰트</span>
+    <div id="f4">font</div>
+    
+    <br><hr><br>
+    
+    <div id="customFont1">내폰트, Custom Font1</div>
+    <div id="customFont2">내폰트, Custom Font2</div>    
+    
+    <br><hr><br>
+    
+    <div id="customGoogleFont1">구글폰트, Custom Google Font</div>
+    <div id="customGoogleFont2" style="font-family: 'Amstelvar Alpha'">구글폰트, Custom Google Font</div>
+    <div id="customGoogleFont3" style="font-family: 'Hanna'">구글폰트, Custom Google Font</div>
+    
+    <br><hr><br>
+</body>
+
+
+<body><!--부트 아이콘-->
+    <i class="fab fa-accessible-icon"></i>
+    <i class="fas fa-cloud" style="font-size: 40px; color:lightblue" ></i><!--글자화된 이미지-->
+    
+    <br><hr><br>
+
+    <div class="glyphicon glyphicon-asterisk" style="font-size: 100px;">&nbsp;&nbsp;</div>
+    
+    <br><hr><br>
+</body>
+
+
+<body><!--커서 변경-->
+    <span style="cursor: auto;">auto</span><br><br>
+    <span style="cursor: crosshair;">crosshair</span><br><br>
+    <span style="cursor: help;">help</span><br><br>
+    <span style="cursor: move;">move</span><br><br>
+    
+    <br><hr><br>
+</body>
+
+
+<body><!--커스텀 글자 리스트 이미지-->
+    <ul id="u1">
+        <li>apple</li>
+        <li>watermelon</li>
+        <li>strawbarry</li>
+    </ul>
+    <ul id="u2">
+        <li>apple</li>
+        <li>watermelon</li>
+        <li>strawbarry</li>
+    </ul>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--박스 모델-->
+    <div id="box1">Hello Box1</div><br><br>
+    
+    <div id="box2">
+        https://www.evernote.com/shard/s557/u/0/sh/297d28d8-47d0-4343-980c-ab576d6d080a/9fd035f775f6b55de9f7af88fc76dcec
+    </div>
+    <br><hr><br>
+
+    <div id="box3" align="center">Hello Box3</div><br><br>
+    <div class="box4" align="center">Hello Box4</div><br><br>
+    
+    
+    <br><hr><br>
+</body>
+
+
+<body><!--테이블-->
+    <table>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>Peter</td>
+              <td>Griffin</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Lois</td>
+              <td>Griffin</td>
+              <td>$150</td>
+            </tr>
+            <tr>
+              <td>Joe</td>
+              <td>Swanson</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>Cleveland</td>
+              <td>Brown</td>
+              <td>$250</td>
+          </tr>
+          </table>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--태그 속성 변경-->
+    <!--블럭 레벨-->
+    <div>test paragraph</div>
+    <div>test paragraph</div>
+    <div>test paragraph</div>
+
+    <!--inline>-->
+    <span>test paragraph</span>
+    <span>test paragraph</span>
+    <span>test paragraph</span>
+    
+    <ul>
+        <li><a href="https://www.naver.com">naver</a></li>
+        <li><a href="https://www.naver.com">naver</a></li>
+        <li><a href="https://www.naver.com">naver</a></li>
+    </ul>
+
+    <div id="paragr1">paragr1</div>
+    <div id="paragr2">paragr2</div>
+    <div id="paragr3">paragr3</div>
+    
+    <br><br><br>
+
+    <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clients">Our Clients</a></li>  
+        <p><a href="#contact">Contact Us</a></p>
+    </ul>
+
+    <br><hr><br>
+
+</body>
+
+    
+<body><!--오버플로우-->
+    <div id="overFlow1">        
+        This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+    </div>
+
+    <br><hr><br>
+</body>
+    
+
+<body><!--플롯 float-->
+    <p id="pId1">
+        <img src="./images/pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--레이어 포지션-->
+    <div class="layerClass" id="dLayer1"><img src="./images/Jellyfish.jpg" width="200">layer1</div>
+    <div class="layerClass" id="dLayer2"><img src="./images/Koala.jpg" width="200">layer2</div>
+    <div class="layerClass" id="dLayer3"><img src="./images/Penguins.jpg" width="200">layer3</div>
+    
+    <h1>상대좌표</h1>
+    <h1>상대좌표</h1>
+    <h1>상대좌표</h1>
+    <div id="word1">내용 표시하기</div>
+
+    <div id="dFixLayer1"><img src="./OMFGDOGS_files/omfgdogs.gif" width="200">fixlayer</div>
+    
+    <br><hr><br>
+</body>
+
+
+<body><!--2d TransForm-->
+    <div class="dTrClass" id="dTr1">내용</div>
+    <div class="dTrClass" id="dTr2">내용</div>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--트랜지션-->
+    <div class="dTriClass" id="dTri1">내용</div>
+    <div class="dTriClass" id="dTri2">내용</div>
+    <div class="dTriClass" id="dTri3">내용</div>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--애니메이션-->
+    <div class="dAniClass" id="dAni1"><img src="./images/Koala.jpg" width="100">koala</div>
+    <br><hr><br>
+</body>
+
+
+<body><!--툴팁-->
+    <div class="myTT">Hover over me
+        <span class="myTTT">Tooltip text</span>
+    </div>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--컬럼 나누기-->
+    <div class="headline">Daily Ping</div>
+    <div class="newspaper">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+    </div>
+
+    <br><hr><br>
+</body>
+
+
+<body><!--그라데이션-->
+    <div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+    Azure
+    </div>
+    <br><hr><br>
+</body>
+
+<body>
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+</html>

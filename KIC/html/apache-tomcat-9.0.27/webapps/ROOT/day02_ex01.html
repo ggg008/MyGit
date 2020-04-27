@@ -1,0 +1,286 @@
+<!--html5 버전 사용-->
+<!doctype html>
+<!--html5 문서 시작-->
+<html>
+<!--전체적인 환경설정-->
+<head>
+    <!--문자 인코딩-->
+    <meta charset="utf-8"><!--언어국제표준-->
+    <!--html 제목글-->
+    <title>2일차 1</title>
+</head>
+
+<!-- 내용부 -->
+<body>
+    Hello HTML<br> -192.168.0.15
+    <!--
+        제목글
+        <h1> ~ <h6>
+    -->
+    <h1>제목글</h1>
+    <hr>
+    <h1>제목글</h1>
+    
+</body>
+
+<body><!--문단-->
+    <!--
+        <p>, <div> (많이썼음), <span> - html4 / xhtml
+        html5 : 내용을 표시할 태그가 늘어남 :형식
+        <header> / <nav> / <section> / <aside> / <footer>
+        
+        외부내용인용
+        <pre>, <blockquate>   
+    -->
+    <!--문장강조
+        <b> <i>
+        <sup> <sub>           
+    -->
+    This is <sup>sup</sup> text, <sub>sub</sub> text <br><br>
+    <hr>
+
+
+
+    <!--이미지
+        <img src="" width="" height="" alt="">
+        -->
+    <img src="./tomcat.gif" width="" height="" alt=""><br>
+    <sub>상대경로</sub><br><br>
+
+    <img src="http://192.168.0.15:8080/tomcat.gif" width="146" height="" alt=""><br>    
+    <img src="http://192.168.0.15:8080/tomcat.gif" width="217" height="" alt=""><br>
+    <img src="http://192.168.0.15:8080/tomcat.gif" width="292" height="" alt=""><br>
+    <sub>웹경로</sub><br>
+    <hr>
+    
+</body>
+
+<body><!--링크-->
+    <!--
+            <a href="">        
+    -->
+    <a href="./ex01.html">ex01.html</a><br><br>
+    <a href="./tomcat.gif">tomcat.gif</a><br><br>
+    <!--브라우저 기준(플러그인)(확장프로그램)-->
+    <!--브라우저 기준 알수있는 파일형식 -> 뷰어 -->
+    <!--브라우저 기준 알수없는 파일형식 -> 다운로드 -->
+    <a href="./tomcat-power.zip">DOWNLOAD</a><br><br>
+
+    <a href="./ex01.html" target="_blank">새창ex01.html</a><br>
+    <hr>
+</body>
+
+<body><!--표-->
+        <!--
+            <table>
+            <tr> - 행
+            <td> - 열
+        -->
+    <table border="1" width="500" height="400">
+        <tr>
+            <td width="50" height="50">11열</td>
+            <td width="150">12열</td>
+            <td>13열</td>
+        </tr>
+        <tr>
+            <td>21열</td>
+            <td>22열</td>
+            <td>23열</td>
+        </tr>
+        <tr>
+            <td>31열</td>
+            <td>32열</td>
+            <td>33열</td>
+        </tr>
+    </table>
+    <table border="1" width="500" height="400">
+        <tr>
+            <td align="center">11열</td>
+            <td align="left">12열</td>
+            <td align="right">13열</td>
+        </tr>
+        <tr>
+            <td valign="top">21열</td>
+            <td valign="middle">22열</td>
+            <td valign="bottom">23열</td>
+        </tr>
+        <tr>
+            <td align="center" valign="center">31열</td>
+            <td>32열</td>
+            <td>33열</td>
+        </tr>
+    </table>
+    <!--서로 규격이 모순될경우 깨짐-->
+    <br>
+    <hr><br>
+
+
+
+    <table border="1" width="500" height="400" align="center" cellspacing="5">
+        <tr>
+            <td colspan="2">11열</td>
+            <!--<td>12열</td>-->
+            <td rowspan="2">13열</td>
+        </tr>
+        <tr>
+            <td rowspan="2">21열</td>
+            <td>22열</td>
+            <!--<td>23열</td>-->
+        </tr>
+        <tr>
+            <!--<td>31열</td>-->
+            <td colspan="2">32열</td>
+            <!--<td>33열</td>-->
+        </tr>
+    </table>
+
+
+
+    <br>
+    <hr><br>
+    <!--목록
+            순서가 있는 목록
+            순서가 없는 목록        
+            사전식 목록
+        -->
+
+    <ul type="square">
+        <li>커피</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+    <ol type="I" start="5">
+        <li>커피</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+    <dl>
+        <dt>커피</dt>
+        <dd>- 커피</dd>
+    </dl>
+    <!--목록안에 목록-->
+    <ul type="square">
+        <li>커피
+            <ul>
+                <li>블랙커피</li>
+                <li>라떼</li>
+                <li>모카</li>
+            </ul>
+        </li>
+        <li>milk</li>
+    </ul>
+    
+    <br>
+    <hr><br>
+</body>
+
+<body><!--iframe-->
+    <!--iframe
+            창안에 창
+        -->
+    <h3>header</h3>
+    <iframe src="https://m.daum.net" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+    <h3>footer</h3>
+
+
+    <br>
+    <hr><br>
+    <table border="0" width="1024" cellspacing="0">
+        <tr>
+            <td width="150" valign="top">
+                <ul>
+                    <li><a href="https://m.daum.net" target="child">daum</a></li>
+                    <li><a href="https://www.zdnet.co.kr/" target="child"><img src="./images/www_zdnet_co.png"></a></li>
+                </ul>
+            </td>
+            <td>
+                <iframe name="child" src="https://m.daum.net" width="600" height="300" frameborder="0"
+                    scrolling="no"></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr><br>
+
+    <img src="./images/planets.gif" width="145" usemap="#planetmap">
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,82,126" href="https://www.naver.com" />
+        <area shape="circle" coords="90,58,3" href="https://www.naver.com" />
+        <area shape="circle" coords="124,58,8" href="https://www.naver.com" />
+    </map>
+    <br><br>
+
+    <img src="./images/workplace.jpg" alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.naver.com">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.naver.com">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.naver.com">
+    </map>
+
+    <br>
+    <hr><br>
+
+</body>
+
+<body><!--사용자 입력의 시작과 끝 (ui)-->    
+    <form>
+        한줄입력 : <input type="text"><br><br>
+        한줄입력 : <input type="text" size=50><br><br>
+        한줄입력 : <input type="text" size=50 maxlength="10"><br><br>
+        한줄입력 : <input type="text" size=50 maxlength="10" value="initial value" readonly><br><br>        
+        한줄입력 : <input type="text" size=50 maxlength="10" placeholder="입력해주세요."><br><br>
+        
+        <!--암호화는 아님-->
+        비밀번호 : <input type="password" size=50 maxlength="10"><br><br>
+        
+        <!--여러줄-->        
+        <textarea placeholder="입력해주세요."></textarea><br>
+        <textarea rows="5" cols="50" >초기값</textarea><br>
+
+        <!--다중선택-->
+        <input type="checkbox">1<br>
+        <input type="checkbox" checked>2<br>
+        <input type="checkbox">3<br>
+
+        <br>
+
+        <!--단일선택-->
+        <input type="radio" name="r">1<br>
+        <input type="radio" name="r">2<br>
+        <input type="radio" name="r" checked>3<br>
+
+        <br>
+
+        <!--단일(다중)선택-->
+        <select>
+            <option>1</option>
+            <option selected>2</option>
+            <option>3</option>
+        </select>
+
+        <select multiple size="3">                
+            <option>1</option>
+            <option selected>2</option>
+            <option>3</option>            
+        </select>
+
+        <br>
+        <br>
+        
+        <!--파일(경로)선택-->
+        <input type="file">
+        
+        <br>
+        <!--html5에서 추가됨-->
+        <input type="color" value="#ff00ff">
+        <input type="date" value="2219-05-05">
+        <input type="number" min="1" max="10" step="2">
+        <input type="range" min="0" max="10" step="2">
+    </form>       
+
+    <br><hr><br>
+</body>
+
+<br><br><br><br><br><br><br><br><br><br>
+</html>

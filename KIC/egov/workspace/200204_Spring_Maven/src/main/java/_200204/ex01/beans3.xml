@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="listTO" class="_200204.ex01.BoardListTO" scope="prototype">
+		<property name="userList">
+			<list>
+				<value>홍길동</value>
+				<value>박문수</value>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="listTO2" class="_200204.ex01.BoardListTO" scope="prototype">
+		<property name="boardList">
+			<list>
+			
+				<!-- 참조객체 리스트 추가 방식1 -->
+				<bean class="_200204.ex01.BoardTO" scope="prototype">
+					<property name="seq" value="1" />
+					<property name="subject" value="제목" />
+				</bean>
+				
+				<!-- 참조객체 리스트 추가 방식2 -->
+				<ref bean="to2"/>
+				
+			</list>
+		</property>
+	</bean>
+
+	<bean id="to2" class="_200204.ex01.BoardTO" scope="prototype">
+		<property name="seq" value="2" />
+		<property name="subject" value="제목2" />
+	</bean>
+
+</beans>

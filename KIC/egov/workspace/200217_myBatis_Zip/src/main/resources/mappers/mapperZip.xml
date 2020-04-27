@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 인터페이스 이름 -->
+<mapper namespace="com.exam.jdbc.ZipMapper">
+	<select id="selectZipcode" resultType="com.exam.model.ZipcodeTO" parameterType="String">
+		SELECT seq, zipcode, sido, gugun, dong, ri, bunji      
+		FROM zipcode 
+		WHERE dong LIKE #{inputStr}
+	</select>
+</mapper>

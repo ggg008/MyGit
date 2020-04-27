@@ -1,0 +1,13 @@
+package spring;
+
+public class HelloSpring implements Hello
+{
+
+	@Override
+	public void sayHello(String name)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

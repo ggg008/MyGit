@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\acorn\OneDrive\java\java-workspace\.metadata\.plugins\org.eclipse.jdt.core
+764424686.index
+4057004714.index
+2911044072.index
+2063893784.index
+2225592340.index
+2048586867.index
+2227308855.index
+3094073550.index
+312961634.index
+1849241279.index
+3870027497.index
+4244135459.index
+908106320.index
+400820670.index
+1068511803.index

@@ -1,0 +1,60 @@
+1576031486735	Copy compilation unit
+1576031657278	Rename type 'NetworkEx02'
+1576031662257	Rename type 'NetworkEx01'
+1576031668288	Rename type 'NetworkEx1'
+1576043424889	Rename type 'NetworkEx04'
+1576043432510	Rename type 'NetworkEx04_DonwPic'
+1576043446728	Rename type 'NetworkEx03'
+1576043629144	Rename type 'NetworkEx05'
+1576043642372	Rename type 'NetworkEx05_Encode'
+1576046795296	Rename package 'Socket_191211'
+1576046809305	Copy package
+1576046814262	Delete element
+1576048387674	Copy compilation units
+1576048518823	Rename type 'TCPServerEx02'
+1576048529842	Rename type 'TCPClientEx02'
+1576109746935	Rename package 'Network_191211'
+1576109755406	Rename package 'Socket_191211TCP1'
+1576109763317	Rename package 'Socket_191211TCP2'
+1576109918811	Copy compilation unit
+1576110052274	Copy compilation unit
+1576110514860	Rename type 'TCPServerEx01Reverse'
+1576110521867	Rename type 'TCPClientEx01Reverse'
+1576110529173	Rename type 'TCPClientEx01Echo'
+1576110537352	Rename type 'TCPServerEx01Echo'
+1576111283125	Copy package
+1576111288912	Delete elements
+1576111313583	Copy compilation unit
+1576111324100	Rename type 'TCPClientEcho3'
+1576113257235	Copy compilation unit
+1576113385613	Copy compilation unit
+1576113643663	Rename type 'TCPClientEcho3'
+1576113651069	Rename type 'TCPServerEcho3'
+1576114905031	Copy compilation unit
+1576143363290	Extract method 'sendError'
+1576143495119	Rename local variable 'correctVal'
+1576196292124	Copy compilation units
+1576196336736	Delete element
+1576196890826	Copy compilation unit
+1576196900393	Rename type 'TCPServerEx2'
+1576202013819	Rename type 'ZipDAO'
+1576202021284	Rename type 'ZipTO'
+1576203217376	Copy compilation units
+1576203918266	Rename type 'TCPServerEx01'
+1576203926670	Rename type 'TCPServerEx01_ZIP'
+1576203934484	Rename type 'TCPClientEx01'
+1576203949209	Rename type 'TCPClientEx01'
+1576203957679	Rename type 'TCPServerEx01'
+1576203965822	Rename type 'TCPServerGuExit'
+1576204254742	Rename type 'TCPServerTest'
+1576218800458	Rename package 'mail_191213'
+1576218843144	Rename package 'network_mail_191213'
+1576218862893	Delete element
+1576219703377	Rename package 'network_191211'
+1576219711447	Rename package 'socket_191211TCP1'
+1576219720406	Rename package 'socket_191211TCP2'
+1576220012045	Rename package 'socket_191212'
+1576220021334	Rename package 'socket_191212Echo'
+1576220030264	Rename package 'socket_191213'
+1576325911518	Copy compilation unit
+1576326330613	Rename local variable 'msg'

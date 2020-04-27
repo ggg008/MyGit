@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1573016885781_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=Day11_Ex01/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1573016885793_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1573016903731_2" label="Window Working Set" name="Aggregate for window 1573016903731"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1573174928150_3" label="Window Working Set" name="Aggregate for window 1573174928150"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1573523547760_4" label="Window Working Set" name="Aggregate for window 1573523547760"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1574046772467_5" label="Multiple Working Sets" name="Aggregate:Java Main Sources:Java Test Sources:">
+<workingSet IMemento.internal.id="Java Main Sources"/>
+<workingSet IMemento.internal.id="Java Test Sources"/>
+</workingSet>
+</workingSetManager>

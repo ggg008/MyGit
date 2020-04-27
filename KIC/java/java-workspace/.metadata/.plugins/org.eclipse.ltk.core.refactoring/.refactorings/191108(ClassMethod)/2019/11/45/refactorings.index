@@ -1,0 +1,11 @@
+1573173213808	Rename local variable 'str1'
+1573173218707	Rename local variable 'str2'
+1573184318340	Rename local variable 'strA'
+1573190963055	Rename local variable 'scanner'
+1573193611395	Rename local variable 'sjoin'
+1573195143930	Copy compilation unit
+1573195719368	Extract method 'guguProcess'
+1573197560582	Rename method 'guguProcess'
+1573197573149	Extract method 'guguProcess'
+1573197967447	Rename local variable 'jgex02'
+1573199219497	Rename local variable 'guguStartNum'

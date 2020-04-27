@@ -1,0 +1,30 @@
+package spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AppllicationMain
+{
+
+	public static void main(String[] args)
+	{
+		
+//		Hello helloSpring = new HelloSpring();
+//		helloSpring.sayHello("홍길동");
+//		
+//		helloSpring = new HelloSpring2();
+//		helloSpring.sayHello("박문수");
+		
+		
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:spring/context.xml");
+		
+//		Hello helloSpring = (HelloSpring) ctx.getBean("helloSpring1");
+		Hello helloSpring = ctx.getBean("helloSpring1");
+		helloSpring.sayHello("홍길동");
+		
+		helloSpring = (Hello) ctx.getBean("helloSpring2");
+		helloSpring.sayHello("박문수");
+
+	}
+
+}

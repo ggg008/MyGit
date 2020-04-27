@@ -1,0 +1,174 @@
+<!--html5 버전 사용-->
+<!doctype html>
+
+<!--html5 문서 시작-->
+<html>
+
+<!--전체적인 환경설정-->
+<head>    
+    <meta charset="utf-8"><!--문자 인코딩--><!--언어국제표준-->
+    <title>3일차 css01</title><!--html 제목글-->
+
+    <!--2 header-->
+    <!--        
+        <style type="text/css">
+            body {background-color: green;}
+        </style>
+    -->
+    <!--3 외부-->
+    <!--
+        <link rel="stylesheet" type="text/css" href="./default.css">
+    -->
+    
+    <style>
+    /* 원칙 : id - tag 당 한개만 적용가능 */
+    
+        div.c1 {
+            background-color: yellow; /*글자배경색*/
+            color: red; /*글자색*/
+        }
+        p.c3 {background-color: blue; color: green;}
+
+        
+        #i1, #i2, #i3 {background-color: rgba(0, 204, 255, 0.637); color: rgb(102, 101, 65);}
+        #i4 {background-color: green; color: white;}
+        
+        /*전체
+        * {background-color: green; color: white;}
+        */
+         /*
+         자식(표현: > ) / 자손들(여럿) (표현: 공백)  
+         형제(표현: + ) / 형제 전체 (표현: ~ )
+         */
+         div > p { color: red; }
+         div ~ p { color: yellow; }      
+
+         /*
+         슈도 클래스
+         링크의 4가지 상태
+         1.unvisited
+         2.visited
+         3.mouse hover
+         4.select
+         */
+
+         a:link {background-color: #ff0000; color: white;}
+         a:visited {background-color: #00ff00; color: black;}
+         a:hover {background-color: #ff00ff; color: #ff00ff;}         
+
+         /*
+         div {
+            background-color: green;
+            color: white;
+            padding: 25px;            
+         }
+
+         div:hover{
+             background-color: blue;
+         }
+         */
+
+         div:first-child{ background-color: red;}
+         div:last-child {background-color: blue;}
+         div:nth-child(2n) {background-color: green;}
+
+    </style>
+</head>
+
+<!--1 inline-->
+<!--    
+    <body style="background-color: red;">
+        
+        <br><hr><br>
+    </body>
+-->
+
+<!--
+    배경에 색상 주는 방법
+    1. inline
+        selector 개념이 없음 / legacy
+    
+    2. header : selector 요소 선택
+    
+    3. 외부 : 분업화 / 소스코드 간략화
+-->
+
+    
+<body><!--selector-->
+    <p>hello CSS</p>
+    <div>hello CSS</div>
+    <p>hello CSS</p>
+    <div>hello CSS</div>
+    <p>hello CSS</p>
+    <div>hello CSS</div>
+
+    <br><hr><br>
+</body>
+
+<body><!--selector2-->
+    <p class="c1">Hello CSS</p>
+    <div class="c1">Hello CSS</div>
+    <p class="c2">Hello CSS</p>
+    <div class="c2">Hello CSS</div>
+    <p class="c3">Hello CSS</p>
+    <div class="c3">Hello CSS</div>
+
+    <br><hr><br>
+</body>
+
+<body><!--selector3-->
+    <p id="i1">Hello CSS i1</p>
+    <div id="i2">Hello CSS i2</div>
+    <p id="i3">Hello CSS i3</p>
+    <div id="i4">Hello CSS i4</div>
+    <p id="i5">Hello CSS i5</p>
+    <div id="i6">Hello CSS i6</div>
+
+    <br><hr><br>
+</body>
+
+<body><!--selector4-->
+    <p>Hello CSS 1</p>
+    <div>
+        <p>Hello CSS 2</p>
+        <span>
+            <p>Hello CSS 3</p>
+        </span>
+        <p>Hello CSS 4</p>
+    </div>
+    <p>Hello CSS 5</p>
+    <p>Hello CSS 6</p>
+    <p>Hello CSS 7</p>
+
+    <br><hr><br>
+</body>
+
+<body><!--링크상태-->
+    <a href="http://www.naver.com">네이버 바로가기</a><br><br>
+    <a href="http://www.daum.net">다음 바로가기</a><br><br>
+
+    <br><hr><br>
+</body>
+
+<body><!--호버-->
+    <div>
+        Movse Over Me
+    </div>
+
+
+    <br><hr><br>
+</body>
+
+<body>
+    <div>Hello CSS div</div>
+    <div>Hello CSS div</div>
+    <div>Hello CSS div</div>
+    <div>Hello CSS div</div>
+    <div>Hello CSS div</div>
+    <div>Hello CSS div</div>
+    
+    <br><hr><br>
+</body>
+
+<br><br><br><br><br><br><br><br><br><br>
+</html>

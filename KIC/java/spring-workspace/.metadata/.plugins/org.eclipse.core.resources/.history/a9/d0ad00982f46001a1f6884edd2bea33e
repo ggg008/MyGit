@@ -1,0 +1,16 @@
+package spring;
+
+public class AppllicationMain
+{
+
+	public static void main(String[] args)
+	{
+		Hello helloSpring = new HelloSpring();
+		helloSpring.sayHello("홍길동");
+		
+//		helloSpring = new HelloSpring2();
+//		helloSpring.sayHello("박문수");
+
+	}
+
+}

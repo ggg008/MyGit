@@ -1,0 +1,158 @@
+<!--html5 버전 사용-->
+<!doctype html>
+
+<!--html5 문서 시작-->
+<html>
+
+<!--전체적인 환경설정-->
+<head>    
+    <meta charset="utf-8"><!--문자 인코딩--><!--언어국제표준-->
+    <title>3일차 css02</title><!--html 제목글-->
+
+    <style type="text/css">
+        /**/
+        div::first-line{color: chartreuse; }
+        div::first-letter{
+            color: red;
+            font-size: 32pt;
+        }
+        /**/
+        a[target]{ color:red; }
+        /*a[target=_blank]{ color:green; }*/
+        /*a[target^="_b"]{ color:burlywood; }*//*_b로 시작하면*/
+        a[target$="p"]{ color:burlywood; }/*p로 끝나면*/
+        a[target*="a"]{ color:gold; }
+
+        input[type="text"]{
+            width: 150px;
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 350px;
+            background-color: yellowgreen;
+        }
+
+
+        input[type="button"]{
+            width: 120px;
+            margin-left: 350px;
+            display: block;
+        }
+        
+        /*
+        body{            
+            background-color: grey;
+            background-image: url("./tomcat.gif");
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+        */
+
+        /*
+        td{
+            background: rgba(54, 22, 232, 0.8) url("./tomcat.gif") no-repeat right top
+        }
+        */
+
+
+        #ex1 {
+            background-image: url("./images/img_flwr.gif"), url("./images/paper.gif");
+            background-position: center bottom, left bottom;
+            background-repeat: repeat-x, repeat;
+            padding: 15px;
+        }
+
+        h1{ color: salmon;}
+        #i1 {text-align: center; text-decoration: overline;}
+        #i2 {text-align: right; text-decoration: underline;}
+        #i3 {text-align: left;}
+
+        a:link{color: black; text-decoration: none;}
+        a:hover{color: black; text-decoration: underline;} 
+       
+       
+        p.test{text-align: center;}       
+
+        p.upper{text-transform: uppercase;}
+        p.lower{text-transform: lowercase;}
+        p.cap{text-transform: capitalize;}
+
+    </style>    
+</head>
+
+
+<body><!--텍스트 스타일-->
+    <div>
+        "한국대학생진보연합(대진연) 회원 19명이 백주대낮에 미 대사관저를 침입하기 전에 사다리까지 들고 왔다 갔다 했는데 왜 검문·검색이 안 됐나."(윤재옥 자유한국당 의원)
+
+            "당시에 바로 지척에서 거리 문화 축제가 있었다고 한다. 인파들 틈에 이렇게 섞여 있어서 좀 감지를 못한…."(민갑룡 경찰청장) 
+            
+            답변이 채 끝나기도 전에 윤 의원은 민 청장을 향해 "검문을 제대로 안 한 것"이라고 질책했다. 윤 의원은 경찰대 1기 수석 입학, 수석 졸업하고 동기 중 '최초' 승진을 하곤 했던 '엘리트 경찰' 출신이다. 민갑룡 청장(경찰대 4기)보다 3년 선배기도 하다. 윤 의원은 곧 "무슨 가방에 들어가는 소품도 아니고 사다리를 들고 왔다 갔다 하는데 검문검색을 안 했다면 경찰이 눈 뜨고 가만히 있었던 것이지, 변명의 여지가 없다"며 "경찰 조직의 기강이 다 무너졌다"고 했다. 민 청장은 "(경비) 책임자 등을 감찰 조사하고 있다"고 답했다. 
+            
+            국회 행정안전위원회가 24일 연 행안부·경찰청 등에 대한 종합국정감사에서는 지난 18일 대진연 회원들이 미 대사관저에 기습 침입해 벌인 시위와 관련한 야당 의원들의 질의가 이어졌다. 안상수 한국당 의원은 경찰청을 통할하는 행안부 진영 장관을 향해 "중동에서나 있을 법한 그런 일이 벌어지고 있다. 그 사람들(대진연)은 김정은 칭송위원회를 만들어서 서울 방문을 환영한다던 이들인데 세상이 도대체 어떻게 되는 거냐"며 한탄했다. 
+    </div>
+
+    <br><hr><br>
+</body>
+
+<body><!--링크 스타일-->
+    <a href="https://m.naver.com">네이버 바로가기</a><br><br>
+    <a href="https://m.naver.com" target="_blank">네이버 바로가기</a><br><br>
+    <a href="https://m.naver.com" target="_top">네이버 바로가기</a><br><br>
+
+    <form name="input" action="" method="get">
+        Firstname:<input type="text" name="Name" value="Petter" size="20">        
+        Lastname:<input type="text" name="Name" value="griffin" size="20">        
+        <input type="button" value="Example Button">
+    </form>
+
+
+    <br><hr><br>
+</body>
+
+<body><!--테이블 스타일-->
+    <table width="800" height="200">
+        <tr>
+            <td>
+                <p align="bottom">
+                    Hello Table
+                </p>
+            </td>
+            <td>Hello Table</td>
+            <td>Hello Table</td>
+            <td>Hello Table</td>
+        </tr>
+
+    </table>
+
+    <br><hr><br>
+</body>
+
+<body><!--이미지(배경) 스타일-->
+    <div id="ex1">
+        <h1>Test Album</h1>
+        <h1>Test Album</h1>
+        <h1>Test Album</h1>
+        <h1>Test Album</h1>
+    </div>
+
+    <br><hr><br>
+</body>
+
+<body><!--텍스트 스타일2-->
+    <h1 id="i1">Hello CSS h1</h1>
+    <h1 id="i2">Hello CSS h1</h1>
+    <h1 id="i3">Hello CSS h1</h1>
+
+    <a href="#">        
+        <p class="test">새로운 기사 내용</p>
+    </a>
+
+    <p class="upper">This is some text.</p>
+    <p class="lower">This is some text.</p>
+    <p class="cap">This is some text.</p>
+
+    <br><hr><br>
+</body>
+
+<br><br><br><br><br><br><br><br><br><br>
+</html>

@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Feb 19 11:45:54 KST 2020
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact egovframework.rte\:egovframework.rte.ptl.mvc\:jar\:3.8.0 from/to mvn2 (http\://repo1.maven.org/maven2/)\: Failed to transfer http\://repo1.maven.org/maven2/egovframework/rte/egovframework.rte.ptl.mvc/3.8.0/egovframework.rte.ptl.mvc-3.8.0.jar. Error code 501, HTTPS Required
+@default-mvn2-http\://repo1.maven.org/maven2/.lastUpdated=1582076804540
+http\://www.egovframe.go.kr/maven/.error=Could not transfer artifact egovframework.rte\:egovframework.rte.ptl.mvc\:jar\:3.8.0 from/to egovframe (http\://www.egovframe.go.kr/maven/)\: unexpected end of stream on Connection{www.egovframe.go.kr\:80, proxy\=DIRECT hostAddress\=www.egovframe.go.kr/202.30.69.16\:80 cipherSuite\=none protocol\=http/1.1}
+http\://maven.egovframe.kr\:8080/maven/.lastUpdated=1582080354413
+@default-egovframe-http\://www.egovframe.go.kr/maven/.lastUpdated=1582080354110

@@ -1,0 +1,64 @@
+package JDBC_191203;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JDBC_zipcode
+{
+
+	public static void main(String[] args)
+	{
+		StringBuffer sb = new StringBuffer("");	
+		
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(fPath),"UTF8"))) {
+			String strData = null;
+			String strWord = "";
+			int ifindData = 0;
+
+			while ((strData = br.readLine()) != null) {
+
+				String[] wordArray = strData.split(",");
+				for (int i =0; i < wordArray.length; ++i) {
+					String str = wordArray[i];
+					
+					if(str.equals(""))
+						continue;
+					
+					sb.append(str);
+					
+					if(i == wordArray.length -1)//이쁘게 하기위해
+						continue;
+					
+					sb.append(" · ");
+				}
+				
+				strWord = sb.toString();					
+
+				
+				++ifindData;
+				System.out.printf("%d · %s\n", ifindData, strWord);
+				 
+				
+				strWord = "";	
+				sb.setLength(0);
+
+			}
+			System.out.println();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

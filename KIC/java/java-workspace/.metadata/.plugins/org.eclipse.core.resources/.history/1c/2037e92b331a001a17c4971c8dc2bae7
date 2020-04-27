@@ -1,0 +1,8 @@
+package Swing_191209;
+
+import javax.swing.DefaultComboBoxModel;
+
+public class ZipSearchComboBoxModel extends DefaultComboBoxModel<E>
+{
+
+}

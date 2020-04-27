@@ -1,0 +1,18 @@
+26-Mar-2020 17:28:26.262 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Mar-2020 17:28:26.465 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Mar-2020 17:28:27.536 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-Mar-2020 17:28:30.520 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Mar-2020 17:28:30.711 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Mar-2020 17:28:31.236 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-Mar-2020 17:28:33.008 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Mar-2020 17:28:33.099 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Mar-2020 17:28:34.525 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+26-Mar-2020 17:28:40.436 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Mar-2020 17:28:41.281 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Mar-2020 17:28:44.278 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'action'
+26-Mar-2020 17:28:47.028 정보 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+26-Mar-2020 17:28:47.187 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+26-Mar-2020 17:28:48.096 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'appServlet'
+26-Mar-2020 17:28:50.438 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Mar-2020 17:28:50.438 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Mar-2020 17:28:50.440 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@aba9646')

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="com.200224.teGov">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <property name="context-root" value="teGov"/>
+        <property name="java-output-path" value="/com.200224.teGov/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.5.201807030714-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/main/java/_200204/ex02/beansContext.xml</config>
+		<config>src/main/java/_200204/ex04_LifeCycle/context.xml</config>
+		<config>src/main/java/_200205/ex02_AOP/beanContext.xml</config>
+		<config>src/main/java/_200205/ex03_AOP_Anno/context.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

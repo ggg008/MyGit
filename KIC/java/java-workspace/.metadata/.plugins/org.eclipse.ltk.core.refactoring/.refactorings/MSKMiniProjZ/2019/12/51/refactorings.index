@@ -1,0 +1,100 @@
+1576543485502	Copy compilation unit
+1576543607363	Move compilation unit
+1576547598946	Delete element
+1576547663018	Delete element
+1576547672217	Copy compilation unit
+1576553715316	Rename method 'testPopmenu'
+1576559535387	Rename type 'StudentDAO'
+1576559541391	Rename type 'StudentTO'
+1576561200283	Rename field 'address'
+1576563632756	Rename method 'selectZip'
+1576569434581	Rename type 'StudentContent'
+1576571766773	Rename method 'infoChange'
+1576571778959	Rename method 'callInfoChange'
+1576581407071	Rename type 'StudentInfo'
+1576581414265	Rename type 'StudentLogin'
+1576581422195	Rename type 'StudentMain'
+1576581429535	Rename type 'TeacherMain'
+1576581811566	Copy compilation unit
+1576581864724	Rename field 'sim'
+1576590877224	Rename method 'resetTeacherMainView'
+1576590980101	Rename method 'resetModels'
+1576628948849	Rename type 'ChatServer'
+1576629176995	Rename type 'ChatClient2'
+1576629212308	Rename type 'MyClassContent'
+1576629237708	Copy compilation unit
+1576629260509	Rename type 'MyClassManagerContent'
+1576629270029	Rename type 'MyClassGuestContent'
+1576629507736	Rename method 'showInfoChange'
+1576629526158	Rename method 'kickHim'
+1576629544116	Rename method 'teacherChangeStuInfo'
+1576629553165	Rename method 'teacherGetStuInfo'
+1576629725792	Rename method 'teacherShowStuInfo'
+1576629732275	Rename method 'teacherKickStudent'
+1576629739739	Rename method 'setInfo'
+1576629753115	Rename method 'studentLogin'
+1576629759636	Rename method 'studentJoin'
+1576629767668	Rename method 'join'
+1576629774445	Rename method 'login'
+1576629780315	Rename method 'studentFileDownload'
+1576629787237	Rename method 'studentGetMessage'
+1576629794176	Rename method 'studentShowMyInfo'
+1576629826113	Rename method 'studentChangeMyInfo'
+1576634599448	Rename field 'textPane'
+1576644974752	Rename field 'to'
+1576647007559	Extract method 'recvJoinStuInfo2'
+1576647020975	Rename method 'recvJoinStuInfo2'
+1576648779850	Rename method 'FailConnetion'
+1576657550008	Extract method 'propsMaker'
+1576658034664	Rename method 'sendSuccessMessage'
+1576658041225	Rename method 'sendErrMessage'
+1576658047063	Rename method 'sendErrJoinMessage'
+1576658056459	Rename method 'sendSuccessJoinMessage'
+1576658109759	Rename local variable 'errmsg'
+1576658823676	Rename compilation unit 'MyClassProtocol.java'
+1576659430425	Rename method 'sendMessage'
+1576660974587	Copy compilation unit
+1576662452303	Rename method 'sendStuInfo'
+1576663992807	Rename field 'sim'
+1576665006491	Delete element
+1576665022619	Copy compilation unit
+1576665039311	Rename field 'namesTeacher'
+1576665619477	Rename field 'jString'
+1576679808325	Rename method 'recvMessage'
+1576680871031	Rename local variable 'joinTo'
+1576719032629	Rename type 'FileTO'
+1576719039431	Rename type 'FileDAO'
+1576719990997	Rename type 'FileListDAO'
+1576719998296	Rename type 'FileListModel'
+1576720005795	Rename type 'FileListTO'
+1576720512579	Copy compilation unit
+1576721248048	Rename method 'refreshView'
+1576724128087	Rename method 'setStuInfoClientModel'
+1576724162326	Copy compilation unit
+1576725509374	Rename field 'key'
+1576725794555	Rename method 'getFileInfo'
+1576726463305	Rename field 'fim'
+1576726492765	Delete element
+1576726501570	Copy compilation unit
+1576726517090	Rename field 'fim'
+1576738243648	Rename method 'getKey'
+1576738248569	Rename method 'setKey'
+1576743144081	Rename field 'path'
+1576769792493	Delete element
+1576770967857	Rename field 'downBtnTest'
+1576774053153	Rename local variable 'sim'
+1576775602818	Delete element
+1576802040232	Rename field 'dir'
+1576802056709	Rename method 'getDir'
+1576803937967	Copy package
+1576803953251	Copy packages
+1576804012302	Copy compilation unit
+1576805144318	Rename local variable 'fcim'
+1576810151853	Copy compilation units
+1576810161657	Copy compilation units
+1576810193139	Copy compilation units
+1576810201745	Copy compilation units
+1576828766145	Copy compilation units
+1576828818702	Copy compilation units
+1576828826009	Copy compilation units
+1576828834014	Copy compilation units
