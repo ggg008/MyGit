@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jQueryBoardEx01&apos; to &apos;200319_jQueryBoardEx01&apos;" description="Rename resource &apos;jQueryBoardEx01&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/jQueryBoardEx01" name="200319_jQueryBoardEx01" stamp="1584664290111" updateReferences="true"/>
+</session>

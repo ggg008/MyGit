@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	window.onload = function() {
+		document.getElementById('btn1').onclick = function() {
+			var cookie = 'name1=value1'; // 세션스토리지와 같이 휘발성
+
+			// ???
+			var date = new Date();
+			date.setDate(date.getDate() + 1);//하루간 
+			var cookie2 = 'name1=value1;expires=' + date.toString();//유통기한이 있음//ex : 3일간 보지않기
+
+			//document.cookie = cookie;
+			
+			var info1 = 'historyTime=histominute;expires=' + date.toString();
+			var info2 = 'symbolA=BTC;expires=' + date.toString();
+			var info3 = 'symbolB=USD;expires=' + date.toString();
+			
+
+			document.cookie = info1;
+			document.cookie = info2;
+			document.cookie = info3;
+			
+			console.log("쿠키생성");
+		}
+
+		document.getElementById('btn2').onclick = function() {
+			var cookies = document.cookie;
+			cookies.trim();
+			cookies = cookies.split('; ');
+			
+			console.log(cookies);
+			
+			var result = 'info : {';
+			
+			cookies.forEach( function(elt) {
+				result += elt.split('=')[0] + ':' + elt.split('=')[1] + ',';				
+			} );
+			
+			result += '}';
+			
+			console.log(result);
+			
+			
+/* 
+			var key = cookies.split('=')[0];
+			var value = cookies.split('=')[1];
+			
+			console.log(key + " : " + value);
+			 */
+			//for(var i = 0; i < )
+			
+			
+		}
+	};
+</script>
+</head>
+<body>
+	<button id="btn1">쿠키생성</button>
+	<button id="btn2">쿠키읽기</button>
+</body>
+</html>

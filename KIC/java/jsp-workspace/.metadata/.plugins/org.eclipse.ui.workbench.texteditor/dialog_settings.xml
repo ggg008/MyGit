@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jst.jsp.ui.internal.preferences.ui.JSPTemplatePreferencePage$JSPEditTemplateDialog_dialogBounds">
+		<item value="612" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="572" key="DIALOG_HEIGHT"/>
+		<item value="431" key="DIALOG_X_ORIGIN"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="chart_candlesticks" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="chartCandlestick"/>
+			<item value="없는"/>
+			<item value="lastPrices"/>
+			<item value="fsymPrice"/>
+			<item value="selectorGecko"/>
+			<item value="price is"/>
+			<item value="price"/>
+			<item value="change"/>
+			<item value="7,561.47"/>
+			<item value="standardTimes"/>
+			<item value="chart.series[0]"/>
+			<item value="serise"/>
+			<item value="seriese"/>
+			<item value="histo"/>
+			<item value="getCandlestickList"/>
+		</list>
+		<list key="replacehistory">
+			<item value="chart_candlesticks"/>
+			<item value="\"/>
+			<item value="/&quot;"/>
+			<item value="subtitleDeco"/>
+			<item value="&apos;"/>
+			<item value="label"/>
+			<item value="&quot;"/>
+			<item value="."/>
+			<item value="&gt;"/>
+			<item value="&lt;/"/>
+			<item value="\&quot;"/>
+			<item value=""/>
+			<item value="transferObjs"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="288" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="384" key="DIALOG_HEIGHT"/>
+		<item value="1133" key="DIALOG_X_ORIGIN"/>
+		<item value="446" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

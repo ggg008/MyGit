@@ -1,0 +1,10 @@
+COLON=\#ffffff | null | false | false | false | false
+COMMA=\#ffffff | null | false | false | false | false
+CURLY_BRACE=\#ffffff | null | false | false | false | false
+NORMAL=\#ffffff | null | false | false | false | false
+OBJECT_KEY=\#0080ff | null | false | false | false | false
+VALUE_BOOLEAN=\#804000 | null | false | false | false | false
+VALUE_STRING=\#ff8040 | null | false | true | false | false
+eclipse.preferences.version=1
+org.eclipse.wst.json.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+suggestionStrategy=Lax

@@ -1,0 +1,7 @@
+1587878786427	Rename type 'testMain'
+1587879074119	Rename local variable 'runnable'
+1587886135944	Extract method 'setterCrawlingLastPrice'
+1587886202276	Rename type 'RunnableCrawling'
+1587888758772	Copy file
+1587889993530	Rename local variable 'jsonStr'
+1587911193284	Extract local variable 'target'

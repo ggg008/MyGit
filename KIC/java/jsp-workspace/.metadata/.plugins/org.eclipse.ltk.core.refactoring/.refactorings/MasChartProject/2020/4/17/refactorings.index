@@ -1,0 +1,87 @@
+1587352816530	Move 'sess-getter.jsp' to 'jsp'
+1587352826001	Delete element
+1587361755301	Delete elements
+1587361870860	Delete element
+1587632796552	Rename resource 'ControllerEx01.java'
+1587633615811	Rename resource 'index.html'
+1587634925456	Rename resource 'index.jsp'
+1587635178637	Delete element
+1587635191095	Copy file
+1587635286954	Move 2 resources to 'WEB-INF'
+1587635404107	Rename resource 'MasChart'
+1587635489658	Copy folders
+1587635674509	Move 2 resources to 'WebContent'
+1587635704034	Delete elements
+1587637037601	Delete element
+1587637067740	Delete element
+1587637502479	Delete element
+1587639458355	Rename resource 'proxyNaverNews.jsp'
+1587641067384	Rename resource 'proxyTest.jsp'
+1587641187936	Copy file
+1587654750414	Delete element
+1587690521588	Delete element
+1587693092476	Copy files
+1587693281015	Delete elements
+1587732307582	Delete element
+1587733495570	Rename local variable 'document'
+1587743882534	Move file
+1587743922044	Move 'chromedriver.exe' to 'MasChartProject'
+1587749770685	Move file
+1587749783334	Move compilation units
+1587749788796	Move file
+1587789233188	Encapsulate field 'toSymbol'
+1587789238971	Encapsulate field 'fromSymbol'
+1587797521673	Rename local variable 'selector2'
+1587798009471	Extract local variable 'url1'
+1587798390047	Rename local variable 'url'
+1587798464109	Extract method 'getChartBasicJson'
+1587798600092	Rename method 'getChartBasicJson'
+1587798616294	Rename method 'setChartBasicJson'
+1587817494070	Encapsulate field 'candleKey'
+1587817497795	Encapsulate field 'candleJSON'
+1587817856037	Rename local variable 'boardLists'
+1587817963210	Rename local variable 'to'
+1587819552960	Rename local variable 'cTO'
+1587820478772	Rename method 'checkCandelstickSize'
+1587820503647	Rename method 'countCandelstickSize'
+1587820761493	Rename local variable 'sBuffer'
+1587821401219	Rename method 'outputCandlestick'
+1587825025708	Rename type 'ChartListTO'
+1587825065253	Rename local variable 'clTo'
+1587825826252	Rename local variable 'timeKey'
+1587825921648	Extract method 'setBasicCharJSON'
+1587826236762	Rename method 'setBasicCharJSON'
+1587826301212	Rename local variable 'chartListTO'
+1587827905948	Extract local variable 'fileName'
+1587828043842	Rename local variable 'fileName'
+1587829118371	Rename local variable 'json'
+1587829492149	Rename local variable 'memberArray'
+1587831287658	Rename local variable 'json'
+1587831293700	Rename local variable 'jsonㄴㅅㄱ'
+1587831667389	Rename type 'ChartRangeTO'
+1587831713426	Rename type 'ChartRangeTempTO'
+1587833482464	Rename method 'candlestickList'
+1587833517522	Rename method 'inputCandlestick'
+1587833524410	Rename method 'inputCandlestickBulk'
+1587837474235	Rename local variable 'curPrice'
+1587837725784	Rename field 'lastPriceMap'
+1587837728927	Rename field 'lastPricea'
+1587837737210	Rename field 'updateTime'
+1587837740636	Rename field 'updateTimea'
+1587837744398	Rename field 'standardTime'
+1587837748949	Rename field 'timeUnit'
+1587838100903	Rename local variable 'key'
+1587838608274	Rename field 'standardTimes'
+1587839166530	Rename local variable 'crTo'
+1587839201255	Rename local variable 'chartListTO'
+1587839218750	Rename local variable 'chartListTo'
+1587839336670	Rename local variable 'chartRangeTO'
+1587841321117	Rename local variable 'cTo'
+1587841331656	Rename local variable 'lastDaycTo'
+1587842329287	Rename type 'Index'
+1587842442733	Rename type 'IndexAction'
+1587842978036	Rename local variable 'timeKey'
+1587844592835	Rename local variable 'lists'
+1587845877284	Rename resource 'board_list1.jsp'
+1587845886738	Rename resource 'chartJSONlist.jsp'
+1587846964088	Rename resource 'chartlist.jsp'

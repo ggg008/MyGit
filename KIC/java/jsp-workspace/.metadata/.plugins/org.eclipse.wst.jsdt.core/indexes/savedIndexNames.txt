@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1626362153.index
+3445262352.index
+751639390.index
+1643559843.index
