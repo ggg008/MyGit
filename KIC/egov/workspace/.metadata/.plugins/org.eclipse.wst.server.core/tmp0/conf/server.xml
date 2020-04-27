@@ -149,21 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\MyCloud\OneDrive\eGovFrameDev-3.8.0-64bit\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\MyCloud\OneDrive\eGovFrameDev-3.8.0-64bit\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\200207_Board_Model2" path="/200207_Board_Model2" reloadable="true" source="org.eclipse.jst.jee.server:200207_Board_Model2">
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
-		
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb2" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.128:3306/project" username="root"/>
-		
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadbUbuntu" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.131:3306/project" username="root"/>
-		
-</Context><Context docBase="C:\MyCloud\OneDrive\eGovFrameDev-3.8.0-64bit\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\200319.exam.jQueryBoard" path="/jQueryBoard" reloadable="true" source="org.eclipse.jst.jee.server:200319.exam.jQueryBoard">
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
-		
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb2" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.128:3306/project" username="root"/>
-		
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadbUbuntu" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.131:3306/project" username="root"/>
-		
-</Context></Host>
+      <Context docBase="C:\MyCloud\mygit\KIC\egov\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\MyCloud\mygit\KIC\egov\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\200206_Practice" path="/200206_Practice" reloadable="true" source="org.eclipse.jst.jee.server:200206_Practice"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -413,4 +413,9 @@
 			<item value=".xml"/>
 		</list>
 	</section>
+	<section name="JavaBuildConfigurationBlock">
+		<item key="expanded0" value="true"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+	</section>
 </section>
