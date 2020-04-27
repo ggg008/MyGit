@@ -7,3 +7,6 @@
 1587911193284	Extract local variable 'target'
 1587969804105	Extract method 'driverInit'
 1587970841194	Delete element
+1587984628179	Copy compilation unit
+1587984685286	Rename local variable 'list'
+1587985156859	Rename resource 'chartList.jsp'

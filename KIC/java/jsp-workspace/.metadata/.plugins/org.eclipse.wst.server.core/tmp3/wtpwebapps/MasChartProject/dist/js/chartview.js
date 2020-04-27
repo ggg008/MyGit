@@ -174,7 +174,7 @@
 	var subtitleDeco = 'Countdown To Bar Close ▶ ';
 	var timeDeco = '--:--';
 	
-	var draw3 = function (paramHistoryTime, paramSymbolA, paramSymbolB) {
+	var draw3 = function (paramHistoryTime, paramFromSymbol, paramToSymbol) {
 	
 	    console.log('call draw3');
 		
@@ -183,8 +183,8 @@
         }
 	
 	    historyTime = paramHistoryTime != undefined && paramHistoryTime !== '' ? paramHistoryTime : historyTime;
-	    fromSymbol = paramSymbolA != undefined && paramSymbolA !== '' ? paramSymbolA : fromSymbol;
-	    toSymbol = paramSymbolB != undefined && paramSymbolB !== '' ? paramSymbolB : toSymbol;
+	    fromSymbol = paramFromSymbol != undefined && paramFromSymbol !== '' ? paramFromSymbol : fromSymbol;
+	    toSymbol = paramToSymbol != undefined && paramToSymbol !== '' ? paramToSymbol : toSymbol;
 	
 	    //input cookie
 	    var date = new Date();
@@ -243,7 +243,7 @@
 	    var chartdata = [];
 	    
 	    
-	    var API = './chartList.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
+	    var API = './chartView.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
 	    
 	    
 	    //https://min-api.cryptocompare.com/data/v2/histominute?fsym=BTC&tsym=USD&limit=2000
@@ -332,7 +332,7 @@
 
 	    var chartdata = [];
 		
-		var API = './chartList.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
+		var API = './chartView.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
 	    $.getJSON(API, function (data) {
 	    	
 	    	//console.log(data.Data[Data.length - 1]);
