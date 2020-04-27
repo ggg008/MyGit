@@ -149,7 +149,10 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\MasChartProject" path="/MasChartProject" reloadable="true" source="org.eclipse.jst.jee.server:MasChartProject">
+      <Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200319_jQueryBoard" path="/200319_jQueryBoard" reloadable="true" source="org.eclipse.jst.jee.server:200319_jQueryBoard">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/umariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.131:3306/project" username="root"/>
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/>
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\MasChartProject" path="/MasChartProject" reloadable="true" source="org.eclipse.jst.jee.server:MasChartProject">
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://52.79.117.33:3306/maschartdb" username="root"/>
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb-sumin" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/maschart" username="root"/>
 </Context></Host>

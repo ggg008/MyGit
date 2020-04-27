@@ -9,12 +9,16 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="fromSymbol" key="selection"/>
+		<item value="col-6 col-md-3" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="col-6 col-md-3"/>
+			<item value="align-items-center"/>
+			<item value="export"/>
+			<item value="chart-title"/>
 			<item value="fromSymbol"/>
 			<item value="draw3"/>
 			<item value="paramFromSymbol"/>
@@ -26,10 +30,6 @@
 			<item value="scroll-sidebar"/>
 			<item value="systemOs"/>
 			<item value="System.getProperty(&quot;os.name&quot;)"/>
-			<item value="setterCrawlingLastPrice"/>
-			<item value="chartCandlestick"/>
-			<item value="없는"/>
-			<item value="lastPrices"/>
 		</list>
 		<list key="replacehistory">
 			<item value="chartView.do"/>
