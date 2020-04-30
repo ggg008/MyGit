@@ -13,7 +13,7 @@
 	<item value="1025" key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_width"/>
 	<item value="886" key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_height"/>
 	<item value="4" key="org.eclipse.jdt.uiformatter_page.line_wrapping_tab_page.last_category_index"/>
-	<item value="C:\MyCloud\OneDrive\java\SpringAPIS" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\MyCloud\mygit\KIC\java\SpringAPIS" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="0" key="org.eclipse.jdt.uiformatter_page.white_space.java_view.inner"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>

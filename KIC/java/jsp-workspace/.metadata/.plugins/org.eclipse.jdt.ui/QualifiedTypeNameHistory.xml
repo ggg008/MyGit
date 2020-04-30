@@ -49,15 +49,15 @@
 <fullyQualifiedTypeName name="net.bytebuddy.asm.Advice.This"/>
 <fullyQualifiedTypeName name="org.jsoup.Connection"/>
 <fullyQualifiedTypeName name="org.jsoup.Connection.Method"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="Crawler.testerMain.TestCrawling"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="jdk.internal.dynalink.beans.StaticClass"/>
 <fullyQualifiedTypeName name="org.jsoup.helper.HttpConnection.Response"/>
 <fullyQualifiedTypeName name="org.jsoup.Connection.Response"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="modelPaging.CandlestickTO"/>
 <fullyQualifiedTypeName name="modelPaging.ChartListInfoTOTemp"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

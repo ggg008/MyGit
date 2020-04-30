@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.png">
 	<style type="text/css">
     	  body {font-size: 70%;}
+    	  .filewrite {text-align: right;}
 	</style>
     <title>MAS Charts Views</title>
     <!-- Custom CSS -->
@@ -321,107 +322,141 @@
                         <div class="card" style="background-color:#1F262D; color:#dbeeff"  >
                             <div class="card-body">
                                 <h4 class="card-title">Chart List</h4>
-                            </div>
-                            <div class="comment-widgets scrollable">
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row m-t-0">
-                                    <div class="comment-text w-100">
-                                        <h6 class="font-medium">James Anderson</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">April 14, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row">
-                                    <div class="comment-text active w-100">
-                                        <h6 class="font-medium">Michael Jorden</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">May 10, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row">
-                                    <div class="comment-text w-100">
-                                        <h6 class="font-medium">Johnathan Doeting</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">August 1, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
+	                            <div id="chartlist-container" class="comment-widgets scrollable">
+	                                <!-- Comment Row -->
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemBTCUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #9A2EFE">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">BTCUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                <!-- 
+	                                 -->
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemETHUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #27a9e3">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">EOSUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemXRPUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #000000">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">XRPUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                	                                
+	                                
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemBCHUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #da542e">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">BCHUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemEOSUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #28b779">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">EOSUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemLTCUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #20364a">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">EOSUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemETCUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #27a9e3">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">EOSUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                
+	                                <div class="d-flex flex-row m-t-5 card-hover" id="itemBSVUSD">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #ffb848">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">EOSUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                <!-- 
+	                                <div class="d-flex flex-row m-t-5 card card-hover">	   
+										<button type="button" class="btn btn-sm w-100 text-white" style="background-color: #9A2EFE">              
+											<i class="fa fa-bookmark m-b-5 font-16 float-left"></i>
+											<div class="d-flex no-block align-items-center">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                       		<span id="sym">EOSUSD</span>
+		                                        <div class="ml-auto">
+		                                            <span id="price">12000</span>
+		                                        </div>
+                                    		</div>
+										</button>
+	                                </div>
+	                                 -->
+	                            </div>                            
                             </div>
                         </div>                  	
                     </div>
                      
+                     
                 	<div class="sidebarContents" id="sidebarContentsCommunity">
                     	<!-- column -->
                     	<div class="card" style="background-color:#1F262D; color:#dbeeff"  >
-                            <!--
+                          
                             <div class="card-body">
-                                <h4 class="card-title">Latest Posts</h4>
-                            </div>
-                             -->
-                            
-                             <!--
-                            <div class="comment-widgets scrollable">
-                                
-                                <div class="d-flex flex-row comment-row m-t-0">
-                                    <div class="comment-text w-100">
-                                        <h6 class="font-medium">James Anderson</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">April 14, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="d-flex flex-row comment-row">
-                                    <div class="comment-text active w-100">
-                                        <h6 class="font-medium">Michael Jorden</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">May 10, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="d-flex flex-row comment-row">
-                                    <div class="comment-text w-100">
-                                        <h6 class="font-medium">Johnathan Doeting</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">August 1, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             -->
-                             
-                            <div class="card-body">
-                                <h4 class="card-title">Chat Option</h4>
-                                <div class="chat-box scrollable" style="height:475px; width:250px;">
+                            	
+                                <h4 class="card-title">Community</h4>
+                                <div class="chat-box scrollable">
                                     <!--chat Row -->
                                     <ul class="chat-list">
                                         <!--chat Row -->
@@ -467,25 +502,80 @@
                                             <div class="chat-time">11:00 am</div>
                                         </li>
                                         <!--chat Row -->
+                                        <li class="chat-item">
+                                            <div class="chat-img"><img src="assets/images/users/1.jpg" alt="user"></div>
+                                            <div class="chat-content">
+                                                <h6 class="font-medium">James Anderson</h6>
+                                                <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing &amp; type setting industry.</div>
+                                            </div>
+                                            <div class="chat-time">10:56 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li class="chat-item">
+                                            <div class="chat-img"><img src="assets/images/users/2.jpg" alt="user"></div>
+                                            <div class="chat-content">
+                                                <h6 class="font-medium">Bianca Doe</h6>
+                                                <div class="box bg-light-info">It’s Great opportunity to work.</div>
+                                            </div>
+                                            <div class="chat-time">10:57 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li class="odd chat-item">
+                                            <div class="chat-content">
+                                                <div class="box bg-light-inverse">I would love to join the team.</div>
+                                                <br>
+                                            </div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li class="odd chat-item">
+                                            <div class="chat-content">
+                                                <div class="box bg-light-inverse">Whats budget of the new project.</div>
+                                                <br>
+                                            </div>
+                                            <div class="chat-time">10:59 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li class="chat-item">
+                                            <div class="chat-img"><img src="assets/images/users/3.jpg" alt="user"></div>
+                                            <div class="chat-content">
+                                                <h6 class="font-medium">Angelina Rhodes</h6>
+                                                <div class="box bg-light-info">Well we have good budget for the project</div>
+                                            </div>
+                                            <div class="chat-time">11:00 am</div>
+                                        </li>
                                     </ul>
                                 </div>
+                                </div>
                             </div>
+                            
+                          <form id="commentform" action="./dist/jsp/comment.jsp" method="post">
                             <div class="card-body border-top">
                                 <div class="row">
                                     <div class="col-9">
                                         <div class="input-field m-t-0 m-b-0">
-                                            <textarea id="textarea1" placeholder="Type and enter" class="form-control border-0"></textarea>
+                                            <textarea id="textarea1" name="cmttxt" placeholder="Type and enter" class="form-control border-0"></textarea>
+                                        	
+                                        	<!--
+                                        	<span class="">
+                                        		<i class="mdi mdi-emoticon"></i>
+                                        	</span>
+                                        	 -->
+                                        	
+                                        	<p class="filewrite">
+                                        		<a class="button" href="javascript:void(0)"><i class="mdi mdi-emoticon"></i></a>
+                                        		<a class="button" href="javascript:void(0)"><i class="mdi mdi-image-filter"></i></a>
+                                        	</p>
+                                        	
                                         </div>
                                     </div>
                                     <div class="col-3">
-                                        <a class="btn-circle btn-lg btn-cyan float-right text-white" href="javascript:void(0)"><i class="fas fa-paper-plane"></i></a>
+                                        <button class="btn-circle btn-lg btn-cyan float-right text-white" type="submit"><i class="fas fa-paper-plane"></i></button>
                                     </div>
                                 </div>
                             </div>
-                        
-                        </div>
-                                         
-                    </div>  
+                          </form>
+                    </div> 
+                
                 </nav>
                 <!-- End Sidebar navigation -->
             </div>
@@ -530,18 +620,19 @@
 					<!-- Column -->
 					<div class="col-6 col-md-6 col-lg-2 col-xlg-3">
 					<a href="#">
-						<div class="card card-hover">
+						<div class="card card-hover" id="bigitemBTCUSD">
 							<div class="box text-center" style="background-color: #9A2EFE">
 								<h1 class="font-light text-white">
 									<img class="list-icon-bitcoin" src="./assets/images/bitcoin.png" height="50"></img>
 								</h1>
-								<h6 class="text-white">BTC (USD)</h6>
+								<h6 class="text-white" id="sym">BTC (USD)</h6>
+								<font class="text-white" id="price">0000</font>
 							</div>
 						</div>
 					</a>
 					</div>
 					<!-- Column -->
-					<div class="col-6 col-md-6 col-lg-2 col-xlg-3">
+					<div class="col-6 col-md-6 col-lg-2 col-xlg-3" id="bigitemETHUSD">
 					<a class="testing" href="javascript:void(0)" aria-expanded="false">
 						<!-- 
 						<a class="testing" href="javascript:void(0)" aria-expanded="false">
@@ -551,7 +642,8 @@
 								<h1 class="font-light text-white">
 									<img class="list-icon-bitcoin" src="assets/images/ethereum.png" height="50"></img>									
 								</h1>
-								<h6 class="text-white">ETH (USD)</h6>
+								<h6 class="text-white" id="sym">ETH (USD)</h6>
+								<font class="text-white" id="price">0000</font>
 							</div>
 						</div>
 						<!-- 
@@ -560,53 +652,57 @@
 					</a>
 					</div>		
 					<!-- Column -->
-					<div class="col-6 col-md-6 col-lg-2 col-xlg-3">
+					<div class="col-6 col-md-6 col-lg-2 col-xlg-3" id="bigitemXRPUSD">
 					<a href="#">
 						<div class="card card-hover">
-							<div class="box text-center" style="background-color: #da542e">
+							<div class="box text-center" style="background-color: #000000">
 								<h1 class="font-light text-white">
-									<img class="list-icon-bitcoin" src="assets/images/gold.png" height="50"></img>
+									<img class="list-icon-bitcoin" src="assets/images/xrp.png" height="50"></img>
 								</h1>
-								<h6 class="text-white">GOLD (USD)</h6>
+								<h6 class="text-white" id="sym">GOLD (USD)</h6>
+								<font class="text-white" id="price">0000</font>
 							</div>
 						</div>
 					</a>
 					</div>
 					<!-- Column -->
-					<div class="col-6 col-md-6 col-lg-2 col-xlg-3">
+					<div class="col-6 col-md-6 col-lg-2 col-xlg-3" id="bigitemBCHUSD">
 					<a href="#">
 						<div class="card card-hover">
-							<div class="box text-center" style="background-color:#343a40">
+							<div class="box text-center" style="background-color:#da542e">
 								<h1 class="font-light text-white" >
-									<img class="list-icon-bitcoin" src="assets/images/OIL_BARREL-512.png" height="50"></img>
+									<img class="list-icon-bitcoin" src="assets/images/bitcoin-cash.png" height="50"></img>
 								</h1>
-								<h6 class="text-white">WTI (USD)</h6>
+								<h6 class="text-white" id="sym">WTI (USD)</h6>
+								<font class="text-white" id="price">0000</font>
 							</div>
 						</div>
 					</a>
 					</div>
 					<!-- Column -->
-					<div class="col-6 col-md-6 col-lg-2 col-xlg-3">
+					<div class="col-6 col-md-6 col-lg-2 col-xlg-3" id="bigitemEOSUSD">
 					<a href="#">
 						<div class="card card-hover">
 							<div class="box text-center" style="background-color: #28b779!important">
 								<h1 class="font-light text-white">
-									<img class="list-icon-bitcoin" src="assets/images/southkoreaflag.png" height="50"></img>
+									<img class="list-icon-bitcoin" src="assets/images/eos.png" height="50"></img>
 								</h1>
-								<h6 class="text-white">KOSPI200 (KRW)</h6>
+								<h6 class="text-white" id="sym">KOSPI200 (KRW)</h6>
+								<font class="text-white" id="price">0000</font>
 							</div>
 						</div>
 					</a>
 					</div>
                     <!-- Column -->
-					<div class="col-6 col-md-6 col-lg-2 col-xlg-3">
+					<div class="col-6 col-md-6 col-lg-2 col-xlg-3" id="bigitemLTCUSD">
 					<a href="#">
 						<div class="card card-hover">
-							<div class="box text-center" style="background-color: #ffb848">
+							<div class="box text-center" style="background-color: #20364a">
 								<h1 class="font-light text-white">
-									<img class="list-icon-bitcoin" src="assets/images/nasdaq.png" height="50"></img>
+									<img class="list-icon-bitcoin" src="assets/images/litecoin.png" height="50"></img>
 								</h1>
-								<h6 class="text-white">NASDAQ (USD)</h6>
+								<h6 class="text-white" id="sym">NASDAQ (USD)</h6>
+								<font class="text-white" id="price">0000</font>
 							</div>
 						</div>
 					</a>
@@ -634,8 +730,8 @@
                                             <div class="flot-chart-content" id="flot-line-chart"></div>
                                              <div w3-include-html="chart-view.html"></div>
                                              -->
-											<div class="col-12" id="container"></div>
                                              
+											<div class="col-12" id="container" style="height : 400px;"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-1">
@@ -658,7 +754,7 @@
                                                 </div>
                                             </div>
                                              -->
-                                            <div class="col-6 col-md-3 col-lg-12">
+                                            <div class="col-6 col-md-3 col-lg-12 m-t-15">
                                                 <div class="p-10 text-white text-center" style="background-color:#9a2efe;">
                                                    <i class="fa fa-cart-plus m-b-5 font-16"></i>
                                                    <h6 class="m-b-0 m-t-5" id="chart-price"></h6>
@@ -692,6 +788,11 @@
 	                                                </div>
                                                 </a>
                                             </div>
+                                            
+                                            
+                                            
+                                            
+                                            
                                         </div>
                                     </div>
                                     <!-- column -->
@@ -706,7 +807,7 @@
                 <!-- ============================================================== -->
                 <!-- Recent comment and chats -->
                 <!-- ============================================================== -->
-                <div class="row">
+                <div class="row" style="display:none">
                     <!-- column -->
                     <div class="col-lg-6">
                         <div class="card">
@@ -1255,6 +1356,7 @@
 					//return json.flag;
 					
 					if(json.sessID != null) {
+						
 						//alert('로그인');
 						$('#login-form').show();
 						$('.sidebar-item').eq(1).hide();

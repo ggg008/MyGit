@@ -45,6 +45,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\MyCloud\mygit\KIC\java\java-workspace"/>
 			<item value="C:\MyCloud\OneDrive\java\java-workspace\191211(Network)"/>
 			<item value="C:\MyCloud\OneDrive\java\java-workspace"/>
 			<item value="C:\MyCloud\OneDrive\java\eclipse\..\java-workspace"/>
@@ -61,8 +62,6 @@
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
 			<item value="org.eclipse.ui.workingSets"/>
-			<item value=""/>
-			<item value=""/>
 		</list>
 	</section>
 	<section name="CleanDialogSettings">

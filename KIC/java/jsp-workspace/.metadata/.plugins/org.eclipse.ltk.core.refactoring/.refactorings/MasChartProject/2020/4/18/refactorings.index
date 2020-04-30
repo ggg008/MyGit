@@ -10,3 +10,6 @@
 1587984628179	Copy compilation unit
 1587984685286	Rename local variable 'list'
 1587985156859	Rename resource 'chartList.jsp'
+1588090800926	Extract method 'setChartData'
+1588091095495	Extract method 'callChartData'
+1588091290518	Extract method 'callDataRunnable'

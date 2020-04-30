@@ -150,12 +150,14 @@
 	var toSymbol = cookieJson.toSymbol != undefined ? cookieJson.toSymbol : 'USD';
 	
 	var chart = null;
+	var chartdata = [];
 	
 	var utcWeight = -2;//utc 시간보정	
 	var standardTime = 0;
 	var updateTime = 0;
 	var timeUnit = 0;
-	var preSize = screen.width;
+	var preWidth = screen.width;
+	var preHeigth = screen.height;
 	
 	var timeSetter = function () {	
 	    //갱신 시간 계산 알고리즘
@@ -196,7 +198,7 @@
 	    var customBtns = [];
 	    var selBtn = null;
 	
-	    $('#chart-title').text('BTC/USD Chart');
+	    $('#chart-title').text( fromSymbol + '/' + toSymbol +'Chart');
 	
 	    switch (historyTime) {
 	        case 'histominute':
@@ -237,7 +239,7 @@
 	        selBtn = customBtns.length - 1;
 	    }
 	
-	    var chartdata = [];
+	    chartdata = [];
 	    
 	    
 	    var API = './chartView.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
@@ -253,8 +255,32 @@
     			
     			chartdata.push([item.time * 1000, item.open, item.high, item.low, item.close]);
     		});
+    		
+//    		$('#chartlist-container').empty();
+    		$.each(data.LastPriceData, function (i, item) {
+    			
+//    			var elt = '<div class="d-flex flex-row m-t-5" id="item'+ item.propName +'">' +
+//                        	'<button type="button" class="btn btn-success btn-sm w-100">' + item.propName + item.close +'</button>' +
+//                        '</div>';
+//    			
+//    			//console.log(item.propName);
+//    			$('#chartlist-container').append(elt);
 
-	        $('#chart-price').text(data.Data[data.Data.length - 1].close);
+    			$('#item'+ item.propName).find("#sym").text(item.propName);
+    			$('#item'+ item.propName).find("#price").text( '$ ' + item.close);
+    			$('#bigitem'+ item.propName).find("#sym").text(item.propName);
+    			$('#bigitem'+ item.propName).find("#price").text( '$ ' + item.close);
+    			
+    			$('#item' + item.propName).off();
+    			var idx = item.propName.indexOf('USD');
+    			$('#item' + item.propName).on("click", function () {
+    			    draw3( undefined, item.propName.substring(0, idx), item.propName.substring(idx, item.propName.length) );
+    			});
+    			
+    		});
+    		
+
+	        $('#chart-price').text('$ ' + data.Data[data.Data.length - 1].close);
 	
 	    }).done(function () {
 	    	
@@ -328,26 +354,28 @@
 	        //			chart.reflow();
 	        //			console.log(chart.rangeSelector.buttonOptions);
 	        
-	        console.log(chart);
+//	        console.log(chart);
 	    });
 	
 	}
 	draw3();
 	
+	var testCountFixed = 5;
+	var testCount = testCountFixed;
 	
 	var realtimePrice = function () {
 //	    $.getJSON('https://min-api.cryptocompare.com/data/price?fsym=' + fromSymbol + '&tsyms=' + toSymbol, function (data) {
 		/*
 		 */
 
-	    var chartdata = [];
+	    chartdata = [];
 		
 		var API = './chartView.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
 	    $.getJSON(API, function (data) {
 	    	
 	    	//console.log(data.Data[Data.length - 1]);
 	    	
-	        $('#chart-price').text(data.Data[data.Data.length - 1].close);
+	        $('#chart-price').text('$ ' + data.Data[data.Data.length - 1].close);
 	        
 	        $.each(data.Data, function (i, item) {
 	            //console.log(item);
@@ -355,9 +383,22 @@
 	            chartdata.push([item.time * 1000, item.open, item.high, item.low, item.close]);
 	        });
 	        
+	        $.each(data.LastPriceData, function (i, item) {
+    			$('#item'+ item.propName).find("#sym").text(item.propName);
+    			$('#item'+ item.propName).find("#price").text( '$ ' + item.close);
+    			$('#bigitem'+ item.propName).find("#sym").text(item.propName);
+    			$('#bigitem'+ item.propName).find("#price").text( '$ ' + item.close);
+    		});
+	        
 	        chart.series[0].setData(chartdata);
 	        
-//	        console.log(data);
+	        --testCount;
+	        if(testCount <= 0) {
+	        	testCount = testCountFixed;
+	        	console.log(data);	        	
+	        }
+	        
+	        
 	    });
 	    
 	};
@@ -374,6 +415,7 @@
 	$('#dayBtn').on("click", function () {
 	    draw3('histoday');
 	});
+
 	
 	
 	var limitConst = 5;
@@ -416,7 +458,7 @@
 	        
 	        $('.highcharts-subtitle').eq(0).html((screen.width < 450 ? subtitleDecoSm : subtitleDecoLg) + remainTimeStr);
 //	        $('.highcharts-subtitle').eq(0).html($('.highcharts-subtitle').eq(0).html() + log);
-	        console.log(chart);
+	        //console.log(chart);
 	    }
 	
 	    if (updateTime <= standardTime + sec) {
@@ -432,8 +474,8 @@
 	
 	$(window).resize(function() {
 		//창크기 변화 감지
-		if( (375 < preSize && screen.width <= 375) || ( preSize <= 375 && 375 < screen.width )){
-			preSize = screen.width;
+		if( (375 < preWidth && screen.width <= 375) || ( preWidth <= 375 && 375 < screen.width )){
+			preWidth = screen.width;
 			draw3();
 		}
 		

@@ -9,29 +9,30 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="col-6 col-md-3" key="selection"/>
+		<item value="100 &lt;= lastPrice" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="col-6 col-md-3"/>
-			<item value="align-items-center"/>
-			<item value="export"/>
-			<item value="chart-title"/>
-			<item value="fromSymbol"/>
-			<item value="draw3"/>
-			<item value="paramFromSymbol"/>
-			<item value="col-lg-11"/>
-			<item value="card-body"/>
-			<item value="chartList.do"/>
-			<item value="restAPIs"/>
+			<item value="1 &lt;= lastPrice"/>
+			<item value="리플"/>
+			<item value="맆,ㄹ"/>
+			<item value="price"/>
+			<item value="chart-price"/>
+			<item value="LastPrice"/>
+			<item value="itemXRPUSD"/>
+			<item value="&lt;h6 class=&quot;text-white&quot; id=&quot;sym&quot;&gt;BTC (USD)&lt;/h6&gt;"/>
+			<item value="./assets/images/bitcoin.png"/>
+			<item value="d-flex flex-row m-t-5 card-hover"/>
+			<item value="↔"/>
+			<item value="class=&quot;card card-hover&quot;"/>
 			<item value="현재"/>
-			<item value="scroll-sidebar"/>
-			<item value="systemOs"/>
-			<item value="System.getProperty(&quot;os.name&quot;)"/>
+			<item value="priceFormat"/>
+			<item value="%f"/>
 		</list>
 		<list key="replacehistory">
+			<item value="100 &lt;= lastPrice"/>
 			<item value="chartView.do"/>
 			<item value="masDAO.getChartList()"/>
 			<item value="systemOs"/>
@@ -46,14 +47,13 @@
 			<item value="&gt;"/>
 			<item value="&lt;/"/>
 			<item value="\&quot;"/>
-			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="288" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="384" key="DIALOG_HEIGHT"/>
-		<item value="1136" key="DIALOG_X_ORIGIN"/>
-		<item value="492" key="DIALOG_Y_ORIGIN"/>
+		<item value="1340" key="DIALOG_X_ORIGIN"/>
+		<item value="418" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\MyCloud\\GitHubKICProj\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\MyCloud\\GitHubKICProj\\.git;
+GitRepositoriesView.GitDirectories=C\:\\MyCloud\\GitHubKICProj\\.git;C\:\\MyCloud\\mygit\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\MyCloud\\GitHubKICProj\\.git;C\:\\MyCloud\\mygit\\.git;
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

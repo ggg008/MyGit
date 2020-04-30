@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/MyCloud/OneDrive/java/APIs/activation.jar"/>
-	<classpathentry kind="lib" path="C:/MyCloud/OneDrive/java/APIs/mail.jar"/>
+	<classpathentry kind="lib" path="C:/MyCloud/mygit/KIC/java/APIs/activation.jar"/>
+	<classpathentry kind="lib" path="C:/MyCloud/mygit/KIC/java/APIs/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

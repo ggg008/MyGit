@@ -1425,3 +1425,11 @@
 0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:17:32 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 200 396033
 0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:17:37 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 200 396033
 0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:17:42 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 200 396033
+127.0.0.1 - - [28/Apr/2020:23:24:59 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:01 +0900] "GET /200323_BootStrap/template/template.jsp HTTP/1.1" 200 491
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:01 +0900] "GET /200323_BootStrap/css/bootstrap.css HTTP/1.1" 200 207393
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:01 +0900] "GET /200323_BootStrap/js/bootstrap.js HTTP/1.1" 200 139600
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:01 +0900] "GET /200323_BootStrap/js/jquery-3.4.1.js HTTP/1.1" 200 290962
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:01 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:06 +0900] "GET /200323_BootStrap/js/bootstrap.js.map HTTP/1.1" 200 256099
+0:0:0:0:0:0:0:1 - - [28/Apr/2020:23:25:06 +0900] "GET /200323_BootStrap/css/bootstrap.css.map HTTP/1.1" 404 796

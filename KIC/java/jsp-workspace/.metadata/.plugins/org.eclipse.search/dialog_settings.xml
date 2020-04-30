@@ -18,9 +18,9 @@
 		<item value="false" key="SEARCH_IN_BINARIES"/>
 		<section name="HISTORY6">
 			<item value="true" key="ignoreCase"/>
-			<item value="0" key="scope"/>
+			<item value="1" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="board_list" key="textPattern"/>
+			<item value="chartList.do" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -30,9 +30,9 @@
 		</section>
 		<section name="HISTORY7">
 			<item value="true" key="ignoreCase"/>
-			<item value="0" key="scope"/>
+			<item value="1" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="mysql" key="textPattern"/>
+			<item value="chartList" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -44,7 +44,7 @@
 			<item value="true" key="ignoreCase"/>
 			<item value="0" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="jdbc:mysql:" key="textPattern"/>
+			<item value="hidden" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -56,7 +56,7 @@
 			<item value="true" key="ignoreCase"/>
 			<item value="0" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="크로스" key="textPattern"/>
+			<item value="jdbc:mysql:" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -68,7 +68,7 @@
 			<item value="true" key="ignoreCase"/>
 			<item value="0" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="jdbc/mariadb2" key="textPattern"/>
+			<item value=".on(" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -81,9 +81,9 @@
 		</section>
 		<section name="HISTORY11">
 			<item value="true" key="ignoreCase"/>
-			<item value="1" key="scope"/>
+			<item value="0" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="ControllerEx01" key="textPattern"/>
+			<item value="jdbc/mariadb2" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -95,30 +95,6 @@
 			<item value="true" key="ignoreCase"/>
 			<item value="1" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="proxyNaverRSS" key="textPattern"/>
-			<item value="false" key="isRegExSearch"/>
-			<list key="fileNamePatterns">
-				<item value="*"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY9">
-			<item value="true" key="ignoreCase"/>
-			<item value="1" key="scope"/>
-			<item value="false" key="isWholeWord"/>
-			<item value="proxyNaverNews" key="textPattern"/>
-			<item value="false" key="isRegExSearch"/>
-			<list key="fileNamePatterns">
-				<item value="*"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY2">
-			<item value="true" key="ignoreCase"/>
-			<item value="1" key="scope"/>
-			<item value="false" key="isWholeWord"/>
 			<item value="CandlestickLsit" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
@@ -127,7 +103,7 @@
 			<list key="workingSets">
 			</list>
 		</section>
-		<section name="HISTORY3">
+		<section name="HISTORY9">
 			<item value="true" key="ignoreCase"/>
 			<item value="0" key="scope"/>
 			<item value="false" key="isWholeWord"/>
@@ -139,11 +115,35 @@
 			<list key="workingSets">
 			</list>
 		</section>
+		<section name="HISTORY2">
+			<item value="true" key="ignoreCase"/>
+			<item value="1" key="scope"/>
+			<item value="false" key="isWholeWord"/>
+			<item value="400px" key="textPattern"/>
+			<item value="false" key="isRegExSearch"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item value="true" key="ignoreCase"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="isWholeWord"/>
+			<item value="display:none" key="textPattern"/>
+			<item value="false" key="isRegExSearch"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
 		<section name="HISTORY0">
 			<item value="true" key="ignoreCase"/>
 			<item value="1" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="chartList.do" key="textPattern"/>
+			<item value="setCandleJSON" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -155,7 +155,7 @@
 			<item value="true" key="ignoreCase"/>
 			<item value="1" key="scope"/>
 			<item value="false" key="isWholeWord"/>
-			<item value="chartList" key="textPattern"/>
+			<item value=".2f" key="textPattern"/>
 			<item value="false" key="isRegExSearch"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
