@@ -9,27 +9,27 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="100 &lt;= lastPrice" key="selection"/>
-		<item value="true" key="casesensitive"/>
+		<item value="Theme" key="selection"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="1 &lt;= lastPrice"/>
-			<item value="리플"/>
-			<item value="맆,ㄹ"/>
-			<item value="price"/>
-			<item value="chart-price"/>
-			<item value="LastPrice"/>
-			<item value="itemXRPUSD"/>
-			<item value="&lt;h6 class=&quot;text-white&quot; id=&quot;sym&quot;&gt;BTC (USD)&lt;/h6&gt;"/>
-			<item value="./assets/images/bitcoin.png"/>
-			<item value="d-flex flex-row m-t-5 card-hover"/>
-			<item value="↔"/>
-			<item value="class=&quot;card card-hover&quot;"/>
-			<item value="현재"/>
-			<item value="priceFormat"/>
-			<item value="%f"/>
+			<item value="theme"/>
+			<item value="var date = new Date();"/>
+			<item value="cookie"/>
+			<item value="export"/>
+			<item value="grid"/>
+			<item value="col-md-12"/>
+			<item value="aria-expand"/>
+			<item value="testing"/>
+			<item value="테마"/>
+			<item value="hide"/>
+			<item value="&apos;."/>
+			<item value="&quot;."/>
+			<item value="-"/>
+			<item value="display"/>
+			<item value="highcharts-indicators"/>
 		</list>
 		<list key="replacehistory">
 			<item value="100 &lt;= lastPrice"/>
@@ -53,7 +53,7 @@
 		<item value="288" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="384" key="DIALOG_HEIGHT"/>
-		<item value="1340" key="DIALOG_X_ORIGIN"/>
-		<item value="418" key="DIALOG_Y_ORIGIN"/>
+		<item value="963" key="DIALOG_X_ORIGIN"/>
+		<item value="437" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

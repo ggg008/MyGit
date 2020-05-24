@@ -23,7 +23,7 @@
 	    this.container.style.background =
 	        'url(https://www.highcharts.com/samples/graphics/sand.png)';
 	});
-	Highcharts.theme = {
+	Highcharts.themeNormal = {
 	    colors: ['#f45b5b', '#8085e9', '#8d4654', '#7798BF', '#aaeeee',
 	        '#ff0066', '#eeaaee', '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
 	
@@ -75,7 +75,6 @@
 	            }
 	        }
 	    },
-	
 	    plotOptions: {
 	        series: {
 	            animation: {
@@ -91,28 +90,84 @@
 	        }
 	    },
 	    // Highstock specific
+
+	    navigation: {
+	        buttonOptions: {
+	            symbolStroke: '#666666',
+	            theme: {
+	                fill: 'white'
+	            }
+	        }
+	    },
 	    navigator: {
+	        handles: {
+	            backgroundColor: '#666',
+	            borderColor: '#AAA'
+	        },
+	        outlineColor: '#CCC',
+	        maskFill: 'rgba(255,255,255,0.1)',
 	        series: {
 	            color: '#343a40',
+	            lineColor: '#000000'
 	        },
 	        xAxis: {
 	            gridLineColor: '#D0D0D8'
 	        }
 	    },
+//	    rangeSelector: {
+//	        buttonTheme: {
+//	            fill: 'white',
+//	            stroke: '#C0C0C8',
+//	            'stroke-width': 1,
+//	            states: {
+//	                select: {
+//	                    fill: '#D0D0D8'
+//	                }
+//	            }
+//	        }
+//	    },
 	    rangeSelector: {
 	        buttonTheme: {
 	            fill: 'white',
 	            stroke: '#C0C0C8',
-	            'stroke-width': 1,
+	            style: {
+	                color: '#000'
+	            },
 	            states: {
+	                hover: {
+	                    fill: '#707073',
+	                    stroke: '#000000',
+	                    style: {
+	                        color: 'white'
+	                    }
+	                },
 	                select: {
-	                    fill: '#D0D0D8'
+	                    fill: '#d0d0d8',
+	                    stroke: '#000000',
+	                    style: {
+	                        color: 'black'
+	                    }
 	                }
 	            }
+	        },
+	        inputBoxBorderColor: '#505053',
+	        inputStyle: {
+	            backgroundColor: '#333',
+	            color: 'silver'
+	        },
+	        labelStyle: {
+	            color: 'silver'
 	        }
 	    },
 	    scrollbar: {
-	        trackBorderColor: '#C0C0C8'
+	        barBackgroundColor: '#808083',
+	        barBorderColor: '#808083',
+	        buttonArrowColor: '#CCC',
+	        buttonBackgroundColor: '#606063',
+	        buttonBorderColor: '#606063',
+	        rifleColor: '#FFF',
+	        trackBackgroundColor: '#404043',
+	        trackBorderColor: '#C0C0C8',	    
 	    },
 	
 	    
@@ -122,8 +177,214 @@
 	    },
 	};
 	
+	Highcharts.themeDark = {
+	    colors: ['#2b908f', '#90ee7e', '#f45b5b', '#7798BF', '#aaeeee', '#ff0066',
+	        '#eeaaee', '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
+	    chart: {
+	        backgroundColor: {
+	            linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
+	            stops: [
+	                [0, '#2a2a2b'],
+	                [1, '#3e3e40']
+	            ]
+	        },
+	        style: {
+	            fontFamily: '\'Unica One\', sans-serif'
+	        },
+	        plotBorderColor: '#606063'
+	    },
+	    title: {
+	        style: {
+	            color: '#E0E0E3',
+	            //textTransform: 'uppercase',
+	            fontSize: '20px',
+	            fontWeight: 'bold'
+	        }
+	    },
+	    subtitle: {
+	        style: {
+	            color: '#E0E0E3',
+	            //textTransform: 'uppercase'
+	        }
+	    },
+	    xAxis: {
+	        //gridLineColor: '#707073',
+	        labels: {
+	            style: {
+	                color: '#E0E0E3'
+	            }
+	        },
+	        lineColor: '#707073',
+	        minorGridLineColor: '#505053',
+	        tickColor: '#707073',
+	        title: {
+	            style: {
+	                color: '#A0A0A3'
+	            }
+	        }
+	    },
+	    yAxis: {
+	        //gridLineColor: '#707073',
+	        labels: {
+	            style: {
+	                color: '#E0E0E3'
+	            }
+	        },
+	        lineColor: '#707073',
+	        minorGridLineColor: '#505053',
+//	        tickColor: '#707073',
+//	        tickWidth: 1,
+	        title: {
+	            style: {
+	                color: '#A0A0A3'
+	            }
+	        }
+	    },
+//	    tooltip: {
+//	        backgroundColor: 'rgba(0, 0, 0, 0.85)',
+//	        style: {
+//	            color: '#F0F0F0'
+//	        }
+//	    },
+	    plotOptions: {
+	        series: {
+	            dataLabels: {
+	                color: '#F0F0F3',
+	                style: {
+	                    fontSize: '13px'
+	                }
+	            },
+	            marker: {
+	                lineColor: '#333'
+	            }
+	        },
+	        boxplot: {
+	            fillColor: '#505053'
+	        },
+	        candlestick: {
+	            lineColor: 'white'
+	        },
+	        errorbar: {
+	            color: 'white'
+	        }
+	    },
+	    legend: {
+	        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+	        itemStyle: {
+	            color: '#E0E0E3'
+	        },
+	        itemHoverStyle: {
+	            color: '#FFF'
+	        },
+	        itemHiddenStyle: {
+	            color: '#606063'
+	        },
+	        title: {
+	            style: {
+	                color: '#C0C0C0'
+	            }
+	        }
+	    },
+	    credits: {
+	        style: {
+	            color: '#666'
+	        }
+	    },
+	    labels: {
+	        style: {
+	            color: '#707073'
+	        }
+	    },
+	    drilldown: {
+	        activeAxisLabelStyle: {
+	            color: '#F0F0F3'
+	        },
+	        activeDataLabelStyle: {
+	            color: '#F0F0F3'
+	        }
+	    },
+	    navigation: {
+	        buttonOptions: {
+	            symbolStroke: '#DDDDDD',
+	            theme: {
+	                fill: '#505053'
+	            }
+	        }
+	    },
+	    // scroll charts
+	    rangeSelector: {
+	        buttonTheme: {
+	            fill: '#505053',
+	            stroke: '#000000',
+	            style: {
+	                color: '#CCC'
+	            },
+	            states: {
+	                hover: {
+	                    fill: '#707073',
+	                    stroke: '#000000',
+	                    style: {
+	                        color: 'white'
+	                    }
+	                },
+	                select: {
+	                    fill: '#000003',
+	                    stroke: '#000000',
+	                    style: {
+	                        color: 'white'
+	                    }
+	                }
+	            }
+	        },
+	        inputBoxBorderColor: '#505053',
+	        inputStyle: {
+	            backgroundColor: '#333',
+	            color: 'silver'
+	        },
+	        labelStyle: {
+	            color: 'silver'
+	        }
+	    },
+	    navigator: {
+	        handles: {
+	            backgroundColor: '#666',
+	            borderColor: '#AAA'
+	        },
+	        outlineColor: '#CCC',
+	        maskFill: 'rgba(255,255,255,0.1)',
+	        series: {
+	            color: '#7798BF',
+	            lineColor: '#A6C7ED'
+	        },
+	        xAxis: {
+	            gridLineColor: '#505053'
+	        }
+	    },
+	    scrollbar: {
+	        barBackgroundColor: '#808083',
+	        barBorderColor: '#808083',
+	        buttonArrowColor: '#CCC',
+	        buttonBackgroundColor: '#606063',
+	        buttonBorderColor: '#606063',
+	        rifleColor: '#FFF',
+	        trackBackgroundColor: '#404043',
+	        trackBorderColor: '#404043'
+	    },
+
+	    loading: {
+	        hideDuration: 100,
+	        showDuration: 100
+	    },
+	};
+	
+	
+	
 	// Apply the theme
-	Highcharts.setOptions(Highcharts.theme);
+	//Highcharts.setOptions(Highcharts.themeNormal);
+
+
+	
+
 	
 	var cookies = document.cookie;
 	//console.log(cookies.length);
@@ -141,23 +402,63 @@
 	
 	cookieJson += '}';
 
-	//console.log(cookieJson);
+	console.log(cookieJson);
 	cookieJson = JSON.parse(cookieJson);	
 	
 	
 	var historyTime = cookieJson.historyTime != undefined ? cookieJson.historyTime : 'histominute';
 	var fromSymbol = cookieJson.fromSymbol != undefined ? cookieJson.fromSymbol : 'BTC';
 	var toSymbol = cookieJson.toSymbol != undefined ? cookieJson.toSymbol : 'USD';
+	var theme = cookieJson.theme != undefined ? cookieJson.theme : 'themeNormal';
+	
+	var setTheme = function(newTheme) {
+		
+		if(newTheme === 'themeNormal'){		
+			$(".page-wrapper").removeAttr("style");
+	    	$("#theme-point1").removeAttr("style");
+	    	// Apply the theme
+	    	Highcharts.setOptions(Highcharts.themeNormal);
+	    	var date = new Date();
+			date.setDate(date.getDate() + 30);//한달유지 
+			document.cookie = 'theme=themeNormal;expires=' + date.toString();
+			theme = 'themeNormal';
+		}
+		else if (newTheme === 'themeDark') {
+			
+			$(".page-wrapper").css("background", "#212223");
+			$("#theme-point1").css("background", "#191919");
+			// Apply the theme
+			Highcharts.setOptions(Highcharts.themeDark);
+			var date = new Date();
+			date.setDate(date.getDate() + 30);//한달유지 
+			document.cookie = 'theme=themeDark;expires=' + date.toString();
+			theme = 'themeDark';
+		}
+	}
+	
+	setTheme(theme);
 	
 	var chart = null;
-	var chartdata = [];
+	var chart2 = null;
 	
 	var utcWeight = -2;//utc 시간보정	
 	var standardTime = 0;
 	var updateTime = 0;
 	var timeUnit = 0;
-	var preWidth = screen.width;
-	var preHeigth = screen.height;
+	var preWidth = window.outerWidth;
+	var preHeight = window.outerHeight;
+		
+	var changeCommunityHeight = function() {
+		$('#community-box').removeAttr('style');
+		var communtBoxHeight = $('.left-sidebarNeo').height() - $('#commentform').height();
+		communtBoxHeight -= ($('#navbarSupportedContent').height() * 2);//안전빵
+		
+		//$('.left-sidebarNeo').height();
+		
+		$('#community-box').attr('style', 'height : ' + communtBoxHeight + 'px;');
+	};
+	
+	changeCommunityHeight();
 	
 	var timeSetter = function () {	
 	    //갱신 시간 계산 알고리즘
@@ -180,7 +481,8 @@
         if (chart != null) {
             chart.showCustomLoading('Loading data from server...');
         }
-	
+        chart = null;
+        
 	    historyTime = paramHistoryTime != undefined && paramHistoryTime !== '' ? paramHistoryTime : historyTime;
 	    fromSymbol = paramFromSymbol != undefined && paramFromSymbol !== '' ? paramFromSymbol : fromSymbol;
 	    toSymbol = paramToSymbol != undefined && paramToSymbol !== '' ? paramToSymbol : toSymbol;
@@ -239,7 +541,8 @@
 	        selBtn = customBtns.length - 1;
 	    }
 	
-	    chartdata = [];
+	    var chartdata = [];
+	    var chartdataRSI = [];
 	    
 	    
 	    var API = './chartView.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
@@ -250,11 +553,68 @@
     		//console.log(data);    		
 	        
 	        //console.log(chartdata);
+	        console.log('chartdata draw3');
+	        
+	        var aus = [];
+	        var ads = [];
+
+        	var au = 0;
+        	var ad = 0;
+        	
     		$.each(data.Data, function (i, item) {
     			//console.log(item);
-    			
-    			chartdata.push([item.time * 1000, item.open, item.high, item.low, item.close]);
+
+    			var open = item.open;
+    			var close = item.close;
+	        	var high = item.high;
+	        	var low = item.low;
+	        	
+	        	high = close < high ? high : close;
+	        	high = open < high ? high : open;
+	        	low = low < close ? low : close;
+	        	low = low < open ? low : open;
+	        	
+	            chartdata.push([item.time * 1000, item.open, high, low, item.close]);
+	            
+	            
+	            if(0 < i){
+	            	var compareVal = item.close - data.Data[i - 1].close;
+	            	
+	            	aus.push(0 < compareVal ? compareVal : 0);
+	            	ads.push(compareVal < 0 ? compareVal : 0);
+	            } else {
+	            	aus.push(0);
+	            	ads.push(0);	            	
+	            }
+	            
+	            var avg = 14;
+	            
+	            if(i < avg){
+	            	chartdataRSI.push([item.time * 1000, 0]);
+	            } else {
+	            	
+	            	if(chartdataRSI.length < avg + 1) {
+	            		au = 0;
+	            		ad = 0;
+	            		for(var idx = i - avg; idx < i; ++idx) {
+	            			au += aus[idx];
+	            			ad += Math.abs(ads[idx]);
+	            		}	            		
+	            	} else {
+	            		au = (au * 13 + aus[aus.length - 1]) / 14;
+	            		ad = (ad * 13 + Math.abs(ads[ads.length - 1]) ) / 14;
+	            	}
+	            	
+	            	
+	            	var rs = au / Math.abs(ad);
+	            	
+	            	chartdataRSI.push([item.time * 1000, au / (au + ad) * 100]);
+	            }
+	            
+	            
     		});
+    		
+
     		
 //    		$('#chartlist-container').empty();
     		$.each(data.LastPriceData, function (i, item) {
@@ -287,16 +647,36 @@
 	        chart = Highcharts.stockChart('container', {
 	
 	            title: {
-	                text: 375 < screen.width ? fromSymbol + '/' + toSymbol + historyTime.replace('histo', ' ') : ''
+	                text: 375 < window.outerWidth ? fromSymbol + '/' + toSymbol + historyTime.replace('histo', ' ') : ''
 	            },
 	
 	            rangeSelector: {
 	                buttons: customBtns,
 	                selected: selBtn,
 	                inputEnabled: false,
-	                //y : 375 < screen.width ? 0 : -35
+	                //y : 375 < window.outerWidth ? 0 : -35
 	                
 	            },
+	            xAxis: {
+	            	events: {
+	            		afterSetExtremes: function () {
+	            			//							console.log('change navigator');
+	            		}
+	            	},
+	            },
+	    	    yAxis: [{
+	                height: '80%',
+	    	        resize: {
+	    	            enabled: true
+	    	        }
+	    	    }, {
+	                labels: {
+	                    align: 'left'
+	                },
+	                top: '80%',
+	                height: '20%',
+	                offset: 0
+	            }],
 	            series: [{
 	                name: fromSymbol + toSymbol,
 	                type: 'candlestick',
@@ -304,30 +684,60 @@
 	                tooltip: {
 	                    valueDecimals: 8
 	                }
+	            }, {
+	                name: 'RSI',
+	                type: 'line',
+	                data: chartdataRSI, 
+	                yAxis: 1
 	            }],
-	
+	            tooltip: {
+	                shape: 'square',
+	                headerShape: 'callout',
+	                borderWidth: 0,
+	                shadow: false,
+	                positioner: function (width, height, point) {
+	                    var chart = this.chart,
+	                        position;
+
+	                    if (point.isHeader) {
+	                        position = {
+	                            x: Math.max(
+	                                // Left side limit
+	                                chart.plotLeft,
+	                                Math.min(
+	                                    point.plotX + chart.plotLeft - width / 2,
+	                                    // Right side limit
+	                                    chart.chartWidth - width - chart.marginRight
+	                                )
+	                            ),
+	                            y: point.plotY
+	                        };
+	                    } else {
+	                        position = {
+	                            x: point.series.chart.plotLeft,
+	                            y: point.series.yAxis.top - chart.plotTop
+	                        };
+	                    }
+
+	                    return position;
+	                }
+	            },
 	            subtitle: {
-	                text: (screen.width < 450 ? subtitleDecoSm : subtitleDecoLg) + timeDeco,
+	                text: (window.outerWidth < 450 ? subtitleDecoSm : subtitleDecoLg) + timeDeco,
 	                align: 'right',
 	                floating: true,
 	                x: 0,
-	                y: 375 < screen.width ? 52 : 42 
+	                y: 375 < window.outerWidth ? 52 : 42 
 	            },
 	
-	            xAxis: {
-	                events: {
-	                    afterSetExtremes: function () {
-	                        //							console.log('change navigator');
-	                    }
-	                },
-	            },
 	            exporting: {
 	    	        buttons: {
 	    	            contextButton: {
-	    	                text: 375 < screen.width ? 'Export' : ''
+	    	                text: 375 < window.outerWidth ? 'Export' : ''
 	    	            }
 	    	        }
 	    	    },
+	    	    
 	
 	
 	        });
@@ -345,7 +755,12 @@
 	        chart.hideCustomLoading();
 	
 	        timeSetter();
-	
+
+			$('.highcharts-indicators').hide();
+			$('.highcharts-separator').eq(0).hide();
+			$('.highcharts-credits').hide();
+			$('.highcharts-toggle-toolbar').hide();
+			
 	        //			chart.rangeSelector.buttons.push(day);
 	        //			console.log(chart.rangeSelector);			
 	        //			console.log(chart.rangeSelector.buttonOptions);
@@ -355,7 +770,27 @@
 	        //			console.log(chart.rangeSelector.buttonOptions);
 	        
 //	        console.log(chart);
+	        
+//	        chart2 = Highcharts.stockChart('container2', {
+//	            series: [{
+//	                name: fromSymbol + toSymbol,
+//	                type: 'candlestick',
+//	                data: chartdata,
+//	                tooltip: {
+//	                    valueDecimals: 8
+//	                }
+//	            }],
+//	            navigator: {
+//	                enabled: false
+//	            },
+//	            rangeSelector: {
+//	                enabled: false
+//	            },
+//	        });
+	        
 	    });
+    	
+    	
 	
 	}
 	draw3();
@@ -368,7 +803,8 @@
 		/*
 		 */
 
-	    chartdata = [];
+	    var chartdata = [];
+	    var chartdataRSI = [];
 		
 		var API = './chartView.do?historyTime='+ historyTime.replace('histo', '') +'&fsym='+ fromSymbol +'&tsym=' + toSymbol;
 	    $.getJSON(API, function (data) {
@@ -377,11 +813,67 @@
 	    	
 	        $('#chart-price').text('$ ' + data.Data[data.Data.length - 1].close);
 	        
+	        console.log('chartdata realtimePrice');
+	        	        
+	        var aus = [];
+	        var ads = [];
+
+        	var au = 0;
+        	var ad = 0;
+	        
 	        $.each(data.Data, function (i, item) {
 	            //console.log(item);
 	
-	            chartdata.push([item.time * 1000, item.open, item.high, item.low, item.close]);
+
+    			var open = item.open;
+    			var close = item.close;
+	        	var high = item.high;
+	        	var low = item.low;
+	        	
+	        	high = close < high ? high : close;
+	        	high = open < high ? high : open;
+	        	low = low < close ? low : close;
+	        	low = low < open ? low : open;
+	        	
+	            chartdata.push([item.time * 1000, item.open, high, low, item.close]);
+	            
+
+	            if(0 < i){
+	            	var compareVal = item.close - data.Data[i - 1].close;
+	            	
+	            	aus.push(0 < compareVal ? compareVal : 0);
+	            	ads.push(compareVal < 0 ? compareVal : 0);
+	            } else {
+	            	aus.push(0);
+	            	ads.push(0);	            	
+	            }
+	            
+	            var avg = 14;
+	            
+	            if(i < avg){
+	            	chartdataRSI.push([item.time * 1000, 0]);
+	            } else {
+	            	
+	            	if(chartdataRSI.length < avg + 1) {
+	            		au = 0;
+	            		ad = 0;
+	            		for(var idx = i - avg; idx < i; ++idx) {
+	            			au += aus[idx];
+	            			ad += Math.abs(ads[idx]);
+	            		}	            		
+	            	} else {
+	            		au = (au * 13 + aus[aus.length - 1]) / 14;
+	            		ad = (ad * 13 + Math.abs(ads[ads.length - 1]) ) / 14;
+	            	}
+	            	
+	            	
+	            	var rs = au / Math.abs(ad);
+	            	
+	            	chartdataRSI.push([item.time * 1000, au / (au + ad) * 100]);
+	            }
 	        });
+	        
+//	        console.log(chartdataRSI);
 	        
 	        $.each(data.LastPriceData, function (i, item) {
     			$('#item'+ item.propName).find("#sym").text(item.propName);
@@ -390,12 +882,13 @@
     			$('#bigitem'+ item.propName).find("#price").text( '$ ' + item.close);
     		});
 	        
-	        chart.series[0].setData(chartdata);
+	        chart.series[0].setData(chartdata, true);
+	        chart.series[1].setData(chartdataRSI, true);
 	        
 	        --testCount;
 	        if(testCount <= 0) {
 	        	testCount = testCountFixed;
-	        	console.log(data);	        	
+//	        	console.log(data);	        	
 	        }
 	        
 	        
@@ -419,7 +912,7 @@
 	
 	
 	var limitConst = 5;
-	var limit =  limitConst;
+	var limit = limitConst;
 	
 	//console.log('리미트 시작값 : ' + standardTime + ':' + (standardTime + utcWeight) % limitConst);
 	setInterval(function () {
@@ -456,7 +949,7 @@
 	        
 	        
 	        
-	        $('.highcharts-subtitle').eq(0).html((screen.width < 450 ? subtitleDecoSm : subtitleDecoLg) + remainTimeStr);
+	        $('.highcharts-subtitle').eq(0).html((window.outerWidth < 450 ? subtitleDecoSm : subtitleDecoLg) + remainTimeStr);
 //	        $('.highcharts-subtitle').eq(0).html($('.highcharts-subtitle').eq(0).html() + log);
 	        //console.log(chart);
 	    }
@@ -473,14 +966,29 @@
 	}, 1000);
 	
 	$(window).resize(function() {
+
+		//console.log('창크기 변화 감지 ' + preHeight + ' '+ window.outerHeight + ' ' + window.outerHeight);
 		//창크기 변화 감지
-		if( (375 < preWidth && screen.width <= 375) || ( preWidth <= 375 && 375 < screen.width )){
-			preWidth = screen.width;
-			draw3();
+		if(preWidth != window.outerWidth){
+			if( (375 < preWidth && window.outerWidth <= 375) || ( preWidth <= 375 && 375 < window.outerWidth )){				
+				draw3();
+			}
+			
+			
+			preWidth = window.outerWidth;
+		}
+		if(preHeight != window.outerHeight){
+			
+			changeCommunityHeight();
+			
+			//console.log('호출 : ' + window.outerHeight + 'navbar : ' + $('#navbarSupportedContent').height() + ' ' + $('#commentform').height());
+			
+			
+			
+			preHeight = window.outerHeight;
 		}
 		
+		
 	});
-
-
 	
 	
