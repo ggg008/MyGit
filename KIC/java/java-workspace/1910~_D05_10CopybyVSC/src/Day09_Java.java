@@ -190,7 +190,8 @@ public class Day09_Java{
                 {
                     case "A":
                     case "a":
-                        var myAtk = dice.nextInt(50);
+//                        var myAtk = dice.nextInt(50);
+                        int myAtk = dice.nextInt(50);
                         if(myAtk == 0)
                             System.out.println("빗나갔다..");
                         else if(30 < myAtk)

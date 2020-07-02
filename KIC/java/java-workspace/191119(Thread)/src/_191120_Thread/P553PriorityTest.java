@@ -31,7 +31,7 @@ public class P553PriorityTest
 		Thread fThread = new MessengerThread("CallF ");
 		Thread tThread = new MessengerThread("CallT ");
 		fThread.setPriority(Thread.MIN_PRIORITY);//1
-		tThread.setPriority(Thread.MAX_PRIORITY);//10 <= 우선순위는 높으나 먼저 실핼되는건 아니다 호출확률이 높아질뿐..
+		tThread.setPriority(Thread.MAX_PRIORITY);//10 <= 우선순위는 높으나 먼저 실행되는건 아니다 호출확률이 높아질뿐..
 		fThread.start();
 		tThread.start();
 		

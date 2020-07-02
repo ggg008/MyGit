@@ -9,12 +9,18 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Theme" key="selection"/>
+		<item value="chartdataRSI" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="chartdataRSI"/>
+			<item value="chart.series[0].setData"/>
+			<item value="chartdata"/>
+			<item value="fsym="/>
+			<item value="ChartListInfoTOTemp"/>
+			<item value=".close"/>
 			<item value="theme"/>
 			<item value="var date = new Date();"/>
 			<item value="cookie"/>
@@ -24,12 +30,6 @@
 			<item value="aria-expand"/>
 			<item value="testing"/>
 			<item value="테마"/>
-			<item value="hide"/>
-			<item value="&apos;."/>
-			<item value="&quot;."/>
-			<item value="-"/>
-			<item value="display"/>
-			<item value="highcharts-indicators"/>
 		</list>
 		<list key="replacehistory">
 			<item value="100 &lt;= lastPrice"/>
@@ -53,7 +53,7 @@
 		<item value="288" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="384" key="DIALOG_HEIGHT"/>
-		<item value="963" key="DIALOG_X_ORIGIN"/>
-		<item value="437" key="DIALOG_Y_ORIGIN"/>
+		<item value="1198" key="DIALOG_X_ORIGIN"/>
+		<item value="367" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

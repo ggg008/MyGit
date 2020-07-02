@@ -15,7 +15,7 @@ public class P602FileInputStreamEx01
 
 		int data = 0;
 		try {
-			fis = new FileInputStream("C:\\MyCloud\\OneDrive\\java\\test1.txt");
+			fis = new FileInputStream("C:\\MyCloud\\mygit\\KIC\\java\\test1.txt");
 			data = fis.read();
 			System.out.println((char)data);//강제 형변환
 			//stream 물같이 흐르고 원하는만큼만 받아쓴다
