@@ -70,7 +70,7 @@ DELETE FROM fileInfo WHERE filekey IN ('')
 //			System.out.println(errmsg);
 //		}
 		
-		var path =  MyClassCilent.getInstance().getDownDir();
+		String path =  MyClassCilent.getInstance().getDownDir();
 		path =  path.replaceAll("/", "\\\\");
 		
 		System.out.println(path);
@@ -106,7 +106,7 @@ uploadDate    date
 		for(String str : strArray) {
 		
 		
-			var sr = new StringReader(str);
+			StringReader sr = new StringReader(str);
 			
 			
 			Properties props = new Properties();

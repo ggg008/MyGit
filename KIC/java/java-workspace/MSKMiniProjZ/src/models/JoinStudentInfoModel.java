@@ -77,7 +77,7 @@ public class JoinStudentInfoModel extends AbstractTableModel
 		
 		StudentInfoTO to = datas.get(rowIndex);
 		
-		var name = getColumnName(columnIndex);
+		String name = getColumnName(columnIndex);
 		switch (name) {
 		case "번호":
 			result = String.valueOf(to.getStuNum());

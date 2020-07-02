@@ -79,7 +79,7 @@ public class EditorEx01 extends JFrame
 			    if (returnVal == JFileChooser.APPROVE_OPTION) {
 			       System.out.println ( "이 파일을 열도록 선택했습니다 :" + fileChooser.getSelectedFile().getName());
 			       
-			       var fPath = fileChooser.getSelectedFile().getAbsolutePath();
+			       String fPath = fileChooser.getSelectedFile().getAbsolutePath();
 			       
 			       textArea.setText(readJavaFile(fPath));
 			    }
@@ -105,7 +105,7 @@ public class EditorEx01 extends JFrame
 				       System.out.println(cdir.isDirectory());
 				       System.out.println(cdir.canWrite());
 				       
-				       var fPath = fileChooser.getSelectedFile().getPath();
+				       String fPath = fileChooser.getSelectedFile().getPath();
 				       System.out.println(fPath);
 				       
 //				       AccessController.checkPermission(new FilePermission(fPath, "write"));

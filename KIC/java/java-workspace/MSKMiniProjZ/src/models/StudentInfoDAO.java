@@ -212,7 +212,7 @@ public class StudentInfoDAO
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 				
-		var sim = StudentInfoModel.getInstance();
+		StudentInfoModel sim = StudentInfoModel.getInstance();
 		try {			
 			String sql = "DELETE FROM StudentInfo WHERE jumin = ?";
 			

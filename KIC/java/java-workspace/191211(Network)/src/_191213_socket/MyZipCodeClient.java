@@ -24,14 +24,14 @@ public class MyZipCodeClient
 			System.out.println("클라이언트 준비 완료");
 			
 			System.out.print("검색할 동? : ");
-			var dong = sc.nextLine();
+			String dong = sc.nextLine();
 
 			bw.write(dong + "\n");
 			bw.flush();
 			System.out.println("보냄");
 			
-			var msg = br.readLine();
-			var zipCode = msg.split(":");
+			String msg = br.readLine();
+			String[] zipCode = msg.split(":");
 			
 			if(0 < zipCode.length) {
 				for (String zip : zipCode) {

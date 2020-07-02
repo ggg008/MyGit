@@ -98,7 +98,7 @@ public class FileInfoDAO
 				to.setFileKey(rs.getInt("fileKey"));
 				
 				
-				var path = rs.getString("fileFullPath");
+				String path = rs.getString("fileFullPath");
 				path = path.substring(0, 1).toUpperCase() + path.substring(1);
 				
 				to.setFileFullPath(path);
@@ -205,7 +205,7 @@ public class FileInfoDAO
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 				
-		var fim = FileInfoModel.getInstance();
+		FileInfoModel fim = FileInfoModel.getInstance();
 		try {			
 			String sql = "DELETE FROM fileInfo WHERE fileKey = ?";
 			
@@ -218,7 +218,7 @@ public class FileInfoDAO
 			System.out.println("실행완료 : " + result);
 			
 			
-			var delfile = fim.getFileInfoByKey(info.getFileKey());
+			FileInfoTO delfile = fim.getFileInfoByKey(info.getFileKey());
 			fim.getDatas().remove(delfile);
 			
 		} catch (SQLException e) {

@@ -31,12 +31,12 @@ public class MyZipCodeServer
 					
 					System.out.println("접속됨" + socket.getInetAddress());
 					
-					var msg = br.readLine();
+					String msg = br.readLine();
 					
 					StringBuffer sb = new StringBuffer();
 					System.out.println("Accept : " + msg);
 					for(MyZipTO to : tos) {
-						var dong = to.getDong();
+						String dong = to.getDong();
 						if(dong.contains(msg)) {
 							sb.append(String.format("[%s] %s %s %s %s %s:", to.getZipcode(), to.getSido(),
 									to.getGugun(), to.getDong(), to.getRi(), to.getBunji()));

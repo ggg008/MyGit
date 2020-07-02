@@ -54,7 +54,7 @@ public class FileInfoModel extends AbstractTableModel
 		
 		FileInfoTO to = fileDatas.get(rowIndex);
 		
-		var name = getColumnName(columnIndex);
+		String name = getColumnName(columnIndex);
 		switch (name) {
 		case "key":
 			result = String.valueOf(to.getFileKey());
@@ -97,14 +97,14 @@ public class FileInfoModel extends AbstractTableModel
 		FileInfoDAO dao = new FileInfoDAO(); 
 		ArrayList<FileInfoTO> delList = new ArrayList<FileInfoTO>();
 		
-		var list = dao.selectFileInfo(delList);
+		ArrayList<FileInfoTO> list = dao.selectFileInfo(delList);
 		ArrayList<FileInfoTO> newList = new ArrayList<FileInfoTO>(); 
 		
 		if(fileDatas == null || fileDatas.size() <= 0) {
 			fileDatas = list;
 		} else {
 			for(FileInfoTO to : list) {
-				var existTo = this.getFileInfoByKey(to.getFileKey());
+				FileInfoTO existTo = this.getFileInfoByKey(to.getFileKey());
 				if(existTo != null) {
 					existTo.setFileInfoTO(to);
 					

@@ -27,11 +27,8 @@
 <fullyQualifiedTypeName name="models.JoinStudentInfoDAO"/>
 <fullyQualifiedTypeName name="guis.StudentLoginView"/>
 <fullyQualifiedTypeName name="models.StudentInfoClientModel"/>
-<fullyQualifiedTypeName name="models.JoinStudentInfoModel"/>
 <fullyQualifiedTypeName name="java.lang.Boolean"/>
 <fullyQualifiedTypeName name="guis.StudentMainView"/>
-<fullyQualifiedTypeName name="guis.StudentInfoView"/>
-<fullyQualifiedTypeName name="models.StudentInfoTO"/>
 <fullyQualifiedTypeName name="content.MyClassEnums"/>
 <fullyQualifiedTypeName name="models.MsgDAO"/>
 <fullyQualifiedTypeName name="models.FileListDAO"/>
@@ -40,9 +37,7 @@
 <fullyQualifiedTypeName name="models.ClientStudentInfoModel"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="models.ClientFileInfoModel"/>
-<fullyQualifiedTypeName name="java.io.StringReader"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="content.MyClassServer"/>
 <fullyQualifiedTypeName name="java.io.DataInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
@@ -53,11 +48,16 @@
 <fullyQualifiedTypeName name="content.MyClassCilent"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="content.MyClassStudentContent"/>
-<fullyQualifiedTypeName name="models.StudentInfoModel"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="models.FileInfoModel"/>
-<fullyQualifiedTypeName name="models.FileInfoTO"/>
 <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="content.MyClassServer"/>
+<fullyQualifiedTypeName name="models.StudentInfoModel"/>
+<fullyQualifiedTypeName name="guis.StudentInfoView"/>
+<fullyQualifiedTypeName name="models.JoinStudentInfoModel"/>
+<fullyQualifiedTypeName name="models.FileInfoTO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="models.StudentInfoTO"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.io.StringReader"/>
 </qualifiedTypeNameHistroy>

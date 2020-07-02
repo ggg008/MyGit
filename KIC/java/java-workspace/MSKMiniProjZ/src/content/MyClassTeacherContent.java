@@ -47,7 +47,7 @@ public class MyClassTeacherContent
 	{
 //		System.out.println("call kickHim : " + selIndex );
 
-    	var delTo = StudentInfoModel.getInstance().getRow(selIndex);
+    	StudentInfoTO delTo = StudentInfoModel.getInstance().getRow(selIndex);
     	
     		
     	
@@ -70,11 +70,11 @@ public class MyClassTeacherContent
     
     public static String insertJoinStuInfo(StudentInfoTO joinTo)
     {
-    	var jstuModel = JoinStudentInfoModel.getInstance();
-    	var stuModel = StudentInfoModel.getInstance();
+    	JoinStudentInfoModel jstuModel = JoinStudentInfoModel.getInstance();
+    	StudentInfoModel stuModel = StudentInfoModel.getInstance();
     	
     	for(int i = 0; i < jstuModel.getRowCount(); ++i) {
-    		var row = jstuModel.getRow(i);
+    		StudentInfoTO row = jstuModel.getRow(i);
     		if( row.getStuID().equals(joinTo.getStuID()) ) {
     			return "이미있는 아이디입니다";
     		} else if( row.getJumin().equals(joinTo.getJumin()) ) {
@@ -83,7 +83,7 @@ public class MyClassTeacherContent
     	}
 
     	for(int i = 0; i < stuModel.getRowCount(); ++i) {
-    		var row = stuModel.getRow(i);
+    		StudentInfoTO row = stuModel.getRow(i);
     		if( row.getStuID().equals(joinTo.getStuID()) ) {
     			return "이미있는 아이디입니다";
     		} else if( row.getJumin().equals(joinTo.getJumin()) ) {
@@ -144,7 +144,7 @@ public class MyClassTeacherContent
 	public static void sendFile(int fileKey, String userID )
 	{
 		FileInfoModel.getInstance().resetModel();
-		var fileInfo = FileInfoModel.getInstance().getFileInfoByKey(fileKey);
+		FileInfoTO fileInfo = FileInfoModel.getInstance().getFileInfoByKey(fileKey);
 		
 		
 		File sendFile = new File(fileInfo.getFileFullPath());
@@ -178,7 +178,7 @@ public class MyClassTeacherContent
 	
 	public static void approveJoinStu(int selIdx)
 	{
-		var jsim = JoinStudentInfoModel.getInstance();
+		JoinStudentInfoModel jsim = JoinStudentInfoModel.getInstance();
 		StudentInfoTO jstu = jsim.getRow(selIdx);
 		 
 		StudentInfoDAO dao = new StudentInfoDAO();
@@ -193,7 +193,7 @@ public class MyClassTeacherContent
 	
 	public static void unapproveJoinStu(int selIdx)
 	{
-		var jsim = JoinStudentInfoModel.getInstance();
+		JoinStudentInfoModel jsim = JoinStudentInfoModel.getInstance();
 		StudentInfoTO jstu = jsim.getRow(selIdx);
 		 
 		JoinStudentInfoDAO jdao = new JoinStudentInfoDAO();
@@ -204,7 +204,7 @@ public class MyClassTeacherContent
 	
 	public static void logoutUser(String userName)
 	{
-		var sim = StudentInfoModel.getInstance();
+		StudentInfoModel sim = StudentInfoModel.getInstance();
 		for(int i = 0; i < sim.getRowCount(); ++i) {
 			if(sim.getRow(i).getStuID().equals(userName)) {
 				sim.getRow(i).setConnect(false);
@@ -241,13 +241,13 @@ public class MyClassTeacherContent
 	
 	public static void uploadFileList(File file)
 	{
-		var fim = FileInfoModel.getInstance();
+		FileInfoModel fim = FileInfoModel.getInstance();
 
 		String path = file.getAbsolutePath();
 
 		path = path.substring(0, 1).toUpperCase() + path.substring(1);
 		
-		var existFile = fim.getFileInfo(path);
+		FileInfoTO existFile = fim.getFileInfo(path);
 		
 		if(existFile != null) {
 			JOptionPane.showMessageDialog(TeacherMainView.getInstance(), "이미 업로드된 파일입니다", "메세지", JOptionPane.WARNING_MESSAGE);
@@ -290,13 +290,13 @@ public class MyClassTeacherContent
 		if(selIdx == -1)
 			return;
 		
-		var row = FileInfoModel.getInstance().getFileInfo(selIdx);
+		FileInfoTO row = FileInfoModel.getInstance().getFileInfo(selIdx);
 		if(row == null) {
 			JOptionPane.showMessageDialog(TeacherMainView.getInstance(), "존재하지않는 파일입니다", "메세지", JOptionPane.WARNING_MESSAGE);
 			return;
 		}		
 		
-		var existFile = FileInfoModel.getInstance().getFileInfoByKey(row.getFileKey());
+		FileInfoTO existFile = FileInfoModel.getInstance().getFileInfoByKey(row.getFileKey());
 		if(existFile == null) {
 			JOptionPane.showMessageDialog(TeacherMainView.getInstance(), "존재하지않는 파일입니다", "메세지", JOptionPane.WARNING_MESSAGE);
 			return;

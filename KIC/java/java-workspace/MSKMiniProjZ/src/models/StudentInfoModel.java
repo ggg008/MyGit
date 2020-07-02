@@ -41,7 +41,7 @@ public class StudentInfoModel extends AbstractTableModel
 		String result = "";
 		
 		StudentInfoTO to = datas.get(rowIndex);
-		var name = this.getColumnName(columnIndex);
+		String name = this.getColumnName(columnIndex);
 		
 		switch (name) {
 		case "번호":
@@ -111,13 +111,13 @@ public class StudentInfoModel extends AbstractTableModel
 	public void resetModel()
 	{
 		StudentInfoDAO dao = new StudentInfoDAO(); 
-		var list = dao.selectStuInfos();
+		ArrayList<StudentInfoTO> list = dao.selectStuInfos();
 		
 		if(datas == null || datas.size() <= 0) {
 			datas = list;
 		} else {
 			for(StudentInfoTO to : list) {
-				var existTo = this.getStudentInfo(to.getStuID());
+				StudentInfoTO existTo = this.getStudentInfo(to.getStuID());
 				if(existTo != null) {
 					existTo.setStudentInfoTO(to);
 				} else {

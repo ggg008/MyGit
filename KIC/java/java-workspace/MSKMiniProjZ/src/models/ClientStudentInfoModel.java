@@ -41,7 +41,7 @@ public class ClientStudentInfoModel extends AbstractTableModel
 		String result = "";
 		
 		StudentInfoTO to = datas.get(rowIndex);
-		var name = this.getColumnName(columnIndex);
+		String name = this.getColumnName(columnIndex);
 		
 		switch (name) {
 		case "번호":

@@ -3,6 +3,7 @@ package content;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Set;
 
@@ -27,7 +28,7 @@ public class MyClassStudentContent
 	
 	public static void failConnetion()
 	{
-		var result = JOptionPane.showConfirmDialog(StudentLoginView.getInstance(), "서버에 연결 실패", "메세지", JOptionPane.CLOSED_OPTION);
+		int result = JOptionPane.showConfirmDialog(StudentLoginView.getInstance(), "서버에 연결 실패", "메세지", JOptionPane.CLOSED_OPTION);
 		
 		if(0 <= result) {
 			StudentLoginView.getInstance().dispose();
@@ -51,7 +52,7 @@ public class MyClassStudentContent
 		int result = JOptionPane.showConfirmDialog(StudentLoginView.getInstance().getJoinView(), msg, "메세지", JOptionPane.CLOSED_OPTION);
 		
 		if(0 <= result) {
-			var joinView =  StudentLoginView.getInstance().getJoinView();
+			StudentInfoView joinView =  StudentLoginView.getInstance().getJoinView();
 			if(joinView != null)
 				joinView.dispose();
 		}
@@ -88,7 +89,7 @@ public class MyClassStudentContent
     
     public static void recvFileList(String infos)
 	{
-    	var datas = ClientFileInfoModel.getInstance().getDatas();
+    	ArrayList<FileInfoTO> datas = ClientFileInfoModel.getInstance().getDatas();
 		datas.clear();
 		
 		String[] strArray = infos.split(MyClassEnums.hrFileList);
@@ -98,7 +99,7 @@ public class MyClassStudentContent
 			if(str.equals(""))
 				continue;
 			
-			var sr = new StringReader(str);
+			StringReader sr = new StringReader(str);
 			
 			Properties props = new Properties();
 			try {
@@ -184,7 +185,7 @@ public class MyClassStudentContent
 	
 	public static void recvClientModelStuInfo(String infos)
 	{	
-		var datas = ClientStudentInfoModel.getInstance().getDatas();
+		ArrayList<StudentInfoTO> datas = ClientStudentInfoModel.getInstance().getDatas();
 		datas.clear();
 		
 		String[] strArray = infos.split(MyClassEnums.hrClientStudents);
@@ -195,7 +196,7 @@ public class MyClassStudentContent
 			if(str.equals(""))
 				continue;
 			
-			var sr = new StringReader(str);
+			StringReader sr = new StringReader(str);
 			
 			Properties props = new Properties();
 			try {
@@ -219,7 +220,7 @@ public class MyClassStudentContent
 	
 	public static void openDownloadFolder()
 	{	
-		var path =  MyClassCilent.getInstance().getDownDir();
+		String path =  MyClassCilent.getInstance().getDownDir();
 		path =  path.replaceAll("/", "\\\\");
 		
 		System.out.println(path);

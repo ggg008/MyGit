@@ -53,7 +53,7 @@ public class ClientFileInfoModel extends AbstractTableModel
 		
 		FileInfoTO to = fileDatas.get(rowIndex);
 		
-		var name = getColumnName(columnIndex);
+		String name = getColumnName(columnIndex);
 		switch (name) {
 		case "key":
 			result = String.valueOf(to.getFileKey());

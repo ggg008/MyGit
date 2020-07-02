@@ -195,11 +195,11 @@ public class MyClassServer
 
 				// 익셉션 발생시켜 접속종료
 				while (!socket.isClosed()) {
-					var msg = in.readUTF();
+					String msg = in.readUTF();
 					System.out.println(msg);
 					
 					
-					var sr = new StringReader(msg);
+					StringReader sr = new StringReader(msg);
 					if(MyClassEnums.hrJoinStu.length() < msg.length() ? 
 							msg.substring(0, MyClassEnums.hrJoinStu.length()).equals(MyClassEnums.hrJoinStu) : false ) {
 						recvJoinStuInfo(sr);
@@ -242,7 +242,7 @@ public class MyClassServer
 			Properties props = propsMaker(sr);
 			
 			
-			var errmsg = MyClassTeacherContent.insertJoinStuInfo(new StudentInfoTO(props));
+			String errmsg = MyClassTeacherContent.insertJoinStuInfo(new StudentInfoTO(props));
 			if(errmsg.equals("")) {
 				sendClientMessage(props.getProperty("stuID"), props.getProperty("ipAddress"), MyClassEnums.hrSucJoin, "가입 제출완료");
 			} else {
@@ -257,9 +257,9 @@ public class MyClassServer
 			String userId = props.getProperty("stuID");
 			String userIp = props.getProperty("ipAddress");
 			
-			var sim = StudentInfoModel.getInstance();
+			StudentInfoModel sim = StudentInfoModel.getInstance();
 			
-			var selto = sim.getStudentInfo(userId);
+			StudentInfoTO selto = sim.getStudentInfo(userId);
 			
 			if(selto == null) {				
 				sendClientMessage(userId, userIp, MyClassEnums.hrFailLogin, "없는 아이디입니다");

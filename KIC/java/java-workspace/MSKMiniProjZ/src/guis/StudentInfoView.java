@@ -203,7 +203,7 @@ public class StudentInfoView extends JDialog
 						
 						
 						StudentInfoTO newTo = new StudentInfoTO();
-						var siView = StudentInfoView.this;
+						StudentInfoView siView = StudentInfoView.this;
 						
 						newTo.setStuID(siView.textFieldID.getText());
 						newTo.setName(siView.textFieldName.getText());

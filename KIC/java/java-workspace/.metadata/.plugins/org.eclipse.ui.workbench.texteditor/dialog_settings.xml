@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="var"/>
 			<item value="getSize"/>
 			<item value="tabb"/>
 			<item value="filePath"/>
@@ -22,7 +23,6 @@
 			<item value="tabbedPane"/>
 			<item value="join"/>
 			<item value="0;"/>
-			<item value="CENTER_ALIGNMENT"/>
 		</list>
 		<list key="replacehistory">
 			<item value="argsList.size() &lt;= 0 "/>
