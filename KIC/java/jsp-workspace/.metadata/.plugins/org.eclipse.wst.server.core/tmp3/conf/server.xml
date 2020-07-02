@@ -154,7 +154,11 @@
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb-localTest" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/maschart" username="root"/>
 </Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200311_jQuery" path="/200311_jQuery" reloadable="true" source="org.eclipse.jst.jee.server:200311_jQuery">
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
-</Context></Host>
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200108_Model1" path="/200108_Model1" reloadable="true" source="org.eclipse.jst.jee.server:200108_Model1">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200110_Album" path="/200110_Album" reloadable="true" source="org.eclipse.jst.jee.server:200110_Album">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200109_Upload" path="/200109_Upload" reloadable="true" source="org.eclipse.jst.jee.server:200109_Upload"/></Host>
     </Engine>
   </Service>
 </Server>

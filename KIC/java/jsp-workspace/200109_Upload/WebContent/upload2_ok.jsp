@@ -5,7 +5,7 @@
 <%@ page import="java.io.File"%>
 
 <%
-	String uploadPath = "C:/MyCloud/OneDrive/java/jsp-workspace/200109_Upload/WebContent/upload";
+	String uploadPath = "C:/MyCloud/mygit/KIC/java/jsp-workspace/200109_Upload/WebContent/upload";
 	int maxFileSize = 1024 * 1024 * 2; // 2mb
 	String encType = "utf-8";
 
