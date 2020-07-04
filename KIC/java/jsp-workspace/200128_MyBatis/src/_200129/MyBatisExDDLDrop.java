@@ -28,7 +28,7 @@ public class MyBatisExDDLDrop
 			is = Resources.getResourceAsStream(resource);
 			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(is);
 
-			sqlSession = sqlSessionFactory.openSession(true);// treu집어넣으면 오토커밋
+			sqlSession = sqlSessionFactory.openSession(true);// true집어넣으면 오토커밋
 			// --바뀌지않는 기초 설정
 
 			String sql = "test";

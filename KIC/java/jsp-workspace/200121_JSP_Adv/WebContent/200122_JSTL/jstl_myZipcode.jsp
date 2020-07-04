@@ -4,8 +4,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 
-<sql:setDataSource url="jdbc:mysql://localhost:3306/project"
-	driver="org.mariadb.jdbc.Driver" user="project" password="123456"
+<sql:setDataSource url="jdbc:mysql://localhost:3306/employees"
+	driver="org.mariadb.jdbc.Driver" user="root" password="123456"
 	var="ds" />
 <%
 	request.setCharacterEncoding("utf-8");

@@ -1,6 +1,4 @@
 #Tomcat publish data
-#Tue Apr 28 23:40:32 KST 2020
-org.eclipse.jst.jee.server\:/binary\:C\:\\MyCloud\\mygit\\KIC\\egov\\workspace\\200210_DynamicToMVCProj\\WebContent\\WEB-INF\\lib\\spring-web-5.1.5.RELEASE.jar=WEB-INF/lib/spring-web-5.1.5.RELEASE.jar
+#Fri Jul 03 20:18:55 KST 2020
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\MSK10\\.m2\\repository\\org\\springframework\\spring-web\\5.1.5.RELEASE\\spring-web-5.1.5.RELEASE.jar=WEB-INF/lib/spring-web-5.1.5.RELEASE.jar
-org.eclipse.jst.jee.server\:/binary\:C\:\\MyCloud\\mygit\\KIC\\egov\\workspace\\200206_MVC\\WebContent\\WEB-INF\\lib\\spring-web-5.1.5.RELEASE.jar=WEB-INF/lib/spring-web-5.1.5.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\MyCloud\\mygit\\KIC\\egov\\workspace\\200206_Practice\\WebContent\\WEB-INF\\lib\\spring-web-5.1.5.RELEASE.jar=WEB-INF/lib/spring-web-5.1.5.RELEASE.jar

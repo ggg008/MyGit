@@ -11,8 +11,8 @@ public class ZipMaven
 
 	public static void main(String[] args)
 	{
-		String url = "jdbc:mysql://localhost:3306/project";
-		String user = "project";
+		String url = "jdbc:mysql://localhost:3306/employees";
+		String user = "root";
 		String pass = "123456";
 
 		Connection conn = null;
