@@ -39,7 +39,8 @@
 
 			request.open('GET', url, true);
 			request.send();
-			
+			console.log("click");
+			//네이버 구조 변경으로 인해 작동안함 200704
 		}
 	}
 </script>

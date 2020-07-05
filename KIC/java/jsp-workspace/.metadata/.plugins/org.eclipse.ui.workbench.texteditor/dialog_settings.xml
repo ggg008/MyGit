@@ -9,12 +9,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="chartdataRSI" key="selection"/>
+		<item value="album_board" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="board1"/>
 			<item value="chartdataRSI"/>
 			<item value="chart.series[0].setData"/>
 			<item value="chartdata"/>
@@ -29,9 +30,10 @@
 			<item value="col-md-12"/>
 			<item value="aria-expand"/>
 			<item value="testing"/>
-			<item value="테마"/>
 		</list>
 		<list key="replacehistory">
+			<item value="album_board"/>
+			<item value="board1"/>
 			<item value="100 &lt;= lastPrice"/>
 			<item value="chartView.do"/>
 			<item value="masDAO.getChartList()"/>
@@ -45,8 +47,6 @@
 			<item value="&quot;"/>
 			<item value="."/>
 			<item value="&gt;"/>
-			<item value="&lt;/"/>
-			<item value="\&quot;"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

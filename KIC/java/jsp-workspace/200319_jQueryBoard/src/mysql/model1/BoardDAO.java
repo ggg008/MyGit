@@ -39,7 +39,7 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 			
-			String sql = "insert into board1 values (0, ?, ?, ?, ?, ?, 0, ?, now())";
+			String sql = "insert into album_board values (0, ?, ?, ?, ?, ?, 0, ?, now())";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSubject());
 			pstmt.setString(2, to.getWriter());
@@ -72,7 +72,7 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 			
-			String sql = "select seq, subject, writer, date_format(wdate, '%Y-%m-%d %H:%i') wdate, hit, hour(timediff(now(), wdate)) wgap, content from board1 order by seq desc";
+			String sql = "select seq, subject, writer, date_format(wdate, '%Y-%m-%d %H:%i') wdate, hit, hour(timediff(now(), wdate)) wgap, content from album_board order by seq desc";
 			pstmt = conn.prepareStatement(sql);
 			
 			rs = pstmt.executeQuery();
@@ -109,13 +109,13 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 
-			String sql = "update board1 set hit=hit+1 where seq=?";
+			String sql = "update album_board set hit=hit+1 where seq=?";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSeq());
 
 			pstmt.executeUpdate();
 			
-			sql = "select subject, writer, mail, wip, date_format(wdate, '%Y-%m-%d %H:%i:%s') wdate, hit, content from board1 where seq=?";
+			sql = "select subject, writer, mail, wip, date_format(wdate, '%Y-%m-%d %H:%i:%s') wdate, hit, content from album_board where seq=?";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSeq());
 			
@@ -148,7 +148,7 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 
-			String sql = "select subject, writer, mail, content from board1 where seq=?";
+			String sql = "select subject, writer, mail, content from album_board where seq=?";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSeq());
 			
@@ -179,7 +179,7 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 			
-			String sql = "update board1 set subject=?, mail=?, content=? where seq=? and password=?";
+			String sql = "update album_board set subject=?, mail=?, content=? where seq=? and password=?";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSubject());
 			pstmt.setString(2, to.getMail());
@@ -211,7 +211,7 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 
-			String sql = "select subject, writer from board1 where seq=?";
+			String sql = "select subject, writer from album_board where seq=?";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSeq());
 			
@@ -240,7 +240,7 @@ public class BoardDAO {
 		try {
 			conn = dataSource.getConnection();
 			
-			String sql = "delete from board1 where seq=? and password=?";
+			String sql = "delete from album_board where seq=? and password=?";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, to.getSeq());
 			pstmt.setString(2, to.getPassword());

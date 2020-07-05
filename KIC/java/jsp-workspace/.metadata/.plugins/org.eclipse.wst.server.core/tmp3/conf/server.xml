@@ -152,11 +152,14 @@
       <Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\MasChartProject" path="/MasChartProject" reloadable="true" source="org.eclipse.jst.jee.server:MasChartProject">
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://3.34.126.22:3306/maschartdb" username="root"/>
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb-localTest" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/maschart" username="root"/>
-</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200121_JSP_Adv" path="/200121_JSP_Adv" reloadable="true" source="org.eclipse.jst.jee.server:200121_JSP_Adv">
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb2" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/employees" username="root"/><!-- 기본옵션(더많음) -->
-</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200129_MyBatisWeb" path="/200129_MyBatisWeb" reloadable="true" source="org.eclipse.jst.jee.server:200129_MyBatisWeb">
-	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb2" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/employees" username="root"/><!-- 기본옵션(더많음) -->
-</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200130_MyBatisAnnotationWeb" path="/200130_MyBatisAnnotationWeb" reloadable="true" source="org.eclipse.jst.jee.server:200130_MyBatisAnnotationWeb"/></Host>
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200309_Ajax" path="/200309_Ajax" reloadable="true" source="org.eclipse.jst.jee.server:200309_Ajax">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200311_jQuery" path="/200311_jQuery" reloadable="true" source="org.eclipse.jst.jee.server:200311_jQuery">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/><!-- 기본옵션(더많음) -->
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200319_jQueryBoard" path="/200319_jQueryBoard" reloadable="true" source="org.eclipse.jst.jee.server:200319_jQueryBoard">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/umariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.131:3306/project" username="root"/>
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/>
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200323_BootStrap" path="/200323_BootStrap" reloadable="true" source="org.eclipse.jst.jee.server:200323_BootStrap"/></Host>
     </Engine>
   </Service>
 </Server>
