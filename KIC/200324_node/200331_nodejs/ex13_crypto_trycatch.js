@@ -2,7 +2,7 @@
 
 
 //try ~ catch
-let crypto;
+let crypto; //const
 try {
     crypto = require('crypto1');    
 
