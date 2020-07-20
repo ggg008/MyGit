@@ -159,7 +159,7 @@
 </Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200319_jQueryBoard" path="/200319_jQueryBoard" reloadable="true" source="org.eclipse.jst.jee.server:200319_jQueryBoard">
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/umariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://192.168.109.131:3306/project" username="root"/>
 	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" name="jdbc/mariadb" password="123456" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project" username="project"/>
-</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200323_BootStrap" path="/200323_BootStrap" reloadable="true" source="org.eclipse.jst.jee.server:200323_BootStrap"/></Host>
+</Context><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\200323_BootStrap" path="/200323_BootStrap" reloadable="true" source="org.eclipse.jst.jee.server:200323_BootStrap"/><Context docBase="C:\MyCloud\mygit\KIC\java\jsp-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps\191223_JavaScript" path="/191223_JavaScript" reloadable="true" source="org.eclipse.jst.jee.server:191223_JavaScript"/></Host>
     </Engine>
   </Service>
 </Server>
