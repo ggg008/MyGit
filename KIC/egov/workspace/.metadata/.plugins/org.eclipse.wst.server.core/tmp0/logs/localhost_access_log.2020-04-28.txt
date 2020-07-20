@@ -1,7 +1,0 @@
-0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:52:43 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 404 782
-127.0.0.1 - - [28/Apr/2020:01:52:43 +0900] "GET / HTTP/1.1" 404 750
-127.0.0.1 - - [28/Apr/2020:01:52:43 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 404 782
-0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:52:43 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 404 782
-0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:52:44 +0900] "GET /200206_Practice/index.jsp HTTP/1.1" 200 335
-0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:52:47 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 404 782
-0:0:0:0:0:0:0:1 - - [28/Apr/2020:01:52:52 +0900] "GET /MasChartProject/chartView.do?historyTime=minute&fsym=BTC&tsym=USD HTTP/1.1" 404 782
