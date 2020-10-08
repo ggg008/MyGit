@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>에이콘 아카데미</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- SPA -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+  {% block header %}
+  {% endblock header %}
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="http://localhost:5000/">에이콘</a>
+
+	  <!-- Links -->
+	  <ul class="navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-link" href="/tabletest">테이블연습</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="/carousel">Carousel</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="/form_select">자바스크립트</a>
+	    </li>
+
+	    <!-- Dropdown -->
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+	        Dropdown link
+	      </a>
+	      <div class="dropdown-menu">
+	        <a class="dropdown-item" href="http://127.0.0.1:5000/tabletest">테이블연습</a>
+	        <a class="dropdown-item" href="#">Link 2</a>
+	        <a class="dropdown-item" href="#">Link 3</a>
+	      </div>
+	    </li>
+	  </ul>
+	</nav>
+	<br>
+	{% block explain_contents %}
+	{% endblock explain_contents %}
+
+	<center> 이 홈페이지는 flask 교육을 위해 제작됐다고 <h3>에이싯팔 아카데미</h3> </center>
+
+</body>
+</html>
