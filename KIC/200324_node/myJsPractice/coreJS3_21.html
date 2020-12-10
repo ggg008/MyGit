@@ -1,0 +1,21 @@
+<script>
+function Person(name, gender) {
+    this.name = name;
+    this.gender = gender;
+}
+
+function Student(name, gender, school) {
+    Person.call(this, name, gender);
+    this.school = school;
+}
+
+function Employees(name, gender, company) {
+    Person.apply(this, [name, gender]);
+    this.company = company;
+}
+var by = new Student('보영', 'female', '단국대');
+var jn = new Employees('채난', 'male', '구골');
+
+console.log(by);
+console.log(jn);
+</script>
